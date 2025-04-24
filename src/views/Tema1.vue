@@ -5,1903 +5,413 @@
     .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
         span 1
-      h1 Ciberespacio fundamentos y alcance
+      h1 Tipo de datos
     
-    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
-      .col-12
-        .row.justify-content-center.align-items-center
-          .col-lg-9.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0.mb-3
-            p El ciberespacio es un entorno digital compuesto por redes interconectadas a través de Internet y otros sistemas de comunicación. Este espacio permite la interacción social, el comercio, la educación y la administración pública, transformando la forma en que las personas trabajan, aprenden y se relacionan. Sin embargo, su crecimiento también ha generado desafíos en seguridad digital y privacidad.
-            p Más allá de la conectividad entre dispositivos, el ciberespacio se sustenta en una infraestructura tecnológica compleja que incluye servidores, centros de datos, computación en la nube y redes descentralizadas. Este ecosistema ha impulsado el desarrollo de la economía digital, dando lugar a nuevas formas de negocio como el comercio electrónico, las criptomonedas y la inteligencia artificial aplicada.
-            .tarjeta.tarjeta--gris.p-4
-              .row.justify-content-center.align-items-center
-                .col-auto.d-none.d-lg-block
-                  figure
-                    img(src='@/assets/curso/temas/tema1/img02.svg', alt='Imagen decorativa')
-                .col-10.mb-3
-                  p.mb-0 Las amenazas en el ciberespacio han evolucionado junto con la tecnología. Actualmente, los ataques cibernéticos incluyen <em>ransomware</em>, inteligencia artificial maliciosa, ingeniería social y espionaje digital. Estos riesgos afectan no solo a individuos y empresas, sino también a gobiernos, planteando desafíos en ciberseguridad y gobernanza digital.
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-5.col-6.col-md-6.col-8.mb-lg-0.d-none.d-lg-block
+        figure
+          img(src='@/assets/curso/temas/tema1/img1.png', alt='Imagen decorativa')
+      .col-lg-7
+        p En el ámbito de la Inteligencia Artificial (IA), el análisis de datos es un proceso fundamental, ya que la calidad y relevancia de la información analizada inciden directamente en el rendimiento y la precisión de los modelos desarrollados. Un Análisis Exploratorio de Datos (AED) eficaz permite identificar patrones y tendencias clave para el entrenamiento de algoritmos de aprendizaje automático y la mejora en la toma de decisiones basada en datos. Para ello, se emplean técnicas estadísticas que facilitan la comprensión de las relaciones entre las variables analizadas.
+        .cajon.color-secundario.p-4.mb-4
+          p Según García (2017), la esencia del AED radica en permitir que los datos “hablen” y, a partir de ellos, identificar los patrones y modelos correspondientes. Por esta razón, el AED se considera una herramienta de gran utilidad en la generación de modelos que representan fenómenos específicos.
+    p El volumen de datos generado en los distintos sistemas de información supera la capacidad humana para analizarlos sin el uso de técnicas automatizadas. Los datos recopilados en los medios transaccionales de las organizaciones han experimentado un crecimiento constante, reflejando una tendencia al alza.
+    p Existen diversas definiciones sobre el análisis de datos. Una de las más reconocidas es la propuesta por Hair y otros (2010), quienes lo definen como el proceso de convertir datos en bruto en información útil para la toma de decisiones. Este proceso no solo implica la aplicación de razonamiento estadístico y herramientas informáticas, sino también la capacidad de interpretar los resultados en el contexto del problema de investigación.
 
-          .col-lg-3.col-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-3.d-none.d-lg-block
-            figure
-              img(src='@/assets/curso/temas/tema1/img01.png', alt='Imagen decorativa')
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4
+      .bloque-texto-g__img(
+        :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img2.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 El análisis de datos es un componente esencial en la era del big data, ya que abarca la examinación, limpieza, transformación y modelado de datos con el objetivo de descubrir información valiosa, extraer conclusiones y respaldar la toma de decisiones. Este proceso incluye una variedad de técnicas y herramientas, que van desde métodos tradicionales de minería de datos y aprendizaje automático hasta enfoques avanzados como el aprendizaje profundo (Wang, 2017).
+    p.mb-4 Un aspecto clave en el análisis de datos es la identificación de sus fuentes, las cuales pueden clasificarse en:
 
-    .row.justify-content-center.align-items-center.mb-0(data-aos="flip-up")
-      .col-12
-        .row.justify-content-center.align-items-center
-          .col-lg-9.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-3
-            p Debido a su naturaleza global, la regulación del ciberespacio es un reto en constante evolución. Organismos como la ONU, la Unión Europea y la OEA han establecido marcos legales y políticas de cooperación internacional para abordar delitos cibernéticos y proteger los derechos digitales. Sin embargo, el avance tecnológico supera muchas veces las regulaciones existentes, lo que exige un enfoque dinámico en la legislación.
-            .row
-              .col-auto.d-none.d-lg-block
-                figure
-                  img(src='@/assets/curso/temas/tema1/img04.png', alt='Imagen decorativa')
-              .col-10.mb-3
-                p.mb-0 Comprender el ciberespacio es esencial para navegar de manera segura en un mundo digitalizado y para enfrentar los desafíos que surgen en este entorno en constante transformación.
+    .row.mb-4
+      .col-lg-6
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema1/img3.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              h4 Internas
+              p Generadas dentro de la organización, como registros de transacciones, bases de datos de clientes y datos operativos.
 
-          .col-lg-3.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3
-            figure
-              img(src='@/assets/curso/temas/tema1/img03.png', alt='Imagen decorativa')
-    
-    //- separador
-    //- #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-    //-   h2 1.1 Concepto del ciberespacio
+      .col-lg-6
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema1/img4.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              h4 Externas
+              p Provenientes de fuentes externas a la organización, como información de mercado, datos demográficos, estadísticas gubernamentales y registros meteorológicos.
 
     separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.1 Historia y evolución del ciberespacio
+      h2 1.1	Datos estructurados
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12
+        p Los sistemas de información actuales manejan diversos tipos de datos, los cuales pueden provenir de múltiples fuentes, incluyendo dispositivos IoT, sistemas operativos, aplicaciones y procesos de curación manual (Gehani y Tariq, 2012).
+        p Los datos estructurados se encuentran organizados en formatos predefinidos, como tablas en bases de datos relacionales, donde cada campo tiene un tipo de dato específico (Pyle, 1999). Su organización sistemática permite realizar consultas eficientes, aplicar filtros y establecer relaciones entre diferentes conjuntos de datos. Se almacenan en bases de datos relacionales, hojas de cálculo y archivos con formato fijo, lo que facilita su procesamiento y análisis en diversos sectores, como el comercio electrónico, la banca y la gestión empresarial.
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-5
+        igure
+          img(src='@/assets/curso/temas/tema1/img5.png', alt='Imagen decorativa')
+      .col-lg-5
+        p Por ejemplo, en un sistema de administración de inventarios, los datos estructurados incluyen información como el código del producto, nombre, precio, cantidad disponible y ubicación en el almacén. Esta estructura facilita la gestión del inventario, el análisis de tendencias de venta y la toma de decisiones estratégicas. Además, los datos estructurados son fundamentales para la implementación de sistemas de inteligencia empresarial y análisis predictivo, ya que proporcionan una base sólida para extraer información clave.
+        p En este contexto, los datos estructurados pueden contener tanto variables cualitativas como cuantitativas. Por ejemplo, una columna puede indicar la categoría de un producto (cualitativo) y otra su precio (cuantitativo). Esta organización facilita la aplicación de análisis estadísticos, como distribuciones de frecuencia y medidas de tendencia central.
+    p.mb-4 La tabla 1 presenta un ejemplo de datos estructurados en una tienda en línea, donde se organizan en filas y columnas con tipos de datos definidos.
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
-      .col-12
-        .row.justify-content-center.align-items-center
-          .col-lg-8.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-3
-            p El ciberespacio es el resultado de décadas de avances en informática y telecomunicaciones. Su origen se remonta a la creación de las primeras computadoras electrónicas en la década de 1940, pero fue con el desarrollo de redes interconectadas cuando comenzó a tomar forma.
-            p En 1969, la Agencia de Proyectos de Investigación Avanzados de Defensa de EE. UU. (DARPA) creó ARPANET, la primera red de computadoras, sentando las bases de lo que hoy conocemos como Internet. En la década de 1980, con la popularización de las computadoras personales, el acceso a las redes se amplió y permitió la comunicación digital a mayor escala.
-            .row
-              .col-auto.d-none.d-lg-block
-                figure
-                  img(src='@/assets/curso/temas/tema1/img06.png', alt='Imagen decorativa')
-              .col-10.mb-3
-                p.mb-0 El gran punto de inflexión llegó en 1991 con la invención de la World Wide Web (WWW) por Tim Berners-Lee, que facilitó la navegación de información en línea y aceleró la expansión del ciberespacio. A partir de mediados de los años 90, el auge de los foros, chats y redes sociales transformó este entorno en un espacio de interacción global.
+    .titulo-sexto.color-acento-contenido.offset-1(data-aos="zoom-in")
+      h5 Tabla 1.
+      span  #[i Datos estructurados en una tienda en línea]
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .tabla-a.color-acento-contenido.mb-4(data-aos="fade-left")
+          table(alt="")
+            thead
+              tr
+                th ID Cliente
+                th Nombre Completo
+                th Edad
+                th Género
+                th Fecha de registros
+                th Ciudad
+                th Total Compras
+            tbody
+              tr
+                td C001
+                td Laura Gómez
+                td 28
+                td F
+                td 12/05/2023
+                td Madrid
+                td 350000
+              tr
+                td C002
+                td Jorge Ramírez
+                td 35
+                td M
+                td 8/11/2022
+                td Valencia
+                td 590000
+              tr
+                td C003
+                td Ana Pérez
+                td 42
+                td F
+                td 19/07/2021	
+                td Sevilla	
+                td 275000
+              tr
+                td C004
+                td Manuel Ortega	
+                td 31	
+                td M	
+                td 25/01/2023	
+                td Bilbao	
+                td 120000
+              tr
+                td C005	
+                td Isabel Fernández	
+                td 24	
+                td F	
+                td 14/09/2022	
+                td Barcelona	
+                td 480000
+    p.mb-4 De manera similar, la tabla 2 describe un conjunto de datos estructurados en un contexto de atención médica, organizado en filas y columnas predefinidas.
 
-          .col-lg-4.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3
-            figure
-              img(src='@/assets/curso/temas/tema1/img05.png', alt='Imagen decorativa')
+    .titulo-sexto.color-acento-contenido.offset-0(data-aos="zoom-in")
+      h5 Tabla 2.
+      span  #[i Datos estructurados en una historia clínica]
 
-    .bloque-texto-g.bloque-texto-g--inverso.color1.p-3.p-sm-4.p-md-5.mb-0(data-aos="fade-down")
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img07.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 Durante las décadas de 2000 y 2010, el crecimiento del ciberespacio fue impulsado por la proliferación de los teléfonos inteligentes, el comercio electrónico y plataformas como Facebook, Twitter y YouTube. Sin embargo, esta expansión también trajo desafíos como la seguridad en línea, la privacidad y la regulación de los derechos digitales.
-        br
-        br
-        p.mb-0 Hoy en día, el ciberespacio sigue evolucionando con tecnologías emergentes como la inteligencia artificial, el Internet de las Cosas (IoT) y la realidad virtual, consolidándose como un entorno indispensable para la sociedad, aunque también plantea retos significativos en materia de ciberseguridad y protección de datos.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        .tabla-a.color-acento-contenido.mb-4(data-aos="fade-left")
+          table(alt="")
+            thead
+              tr
+                th ID Paciente	
+                th Nombre Completo	
+                th Edad	
+                th Género	
+                th Fecha Ingreso	
+                th Diagnóstico Principal	
+                th Nivel de Riesgo
+            tbody
+              tr
+                td P001	
+                td Carmen Rodríguez	
+                td 56	
+                td F	
+                td 5/11/2024	
+                td Hipertensión arterial	
+                td Medio
+                
+              tr
+                td P002	
+                td Luis González	
+                td 43	
+                td M	
+                td 1/12/2024	
+                td Diabetes tipo 2	
+                td Alto
+                
+              tr
+                td P003	
+                td Daniela Martínez	
+                td 30	
+                td F	
+                td 15/01/2025	
+                td Asma leve	
+                td Bajo
+                
+              tr
+                td P004	
+                td Jorge Herrera	
+                td 65	
+                td M	
+                td 7/02/2025	
+                td Enfermedad pulmonar crónica	
+                td Alto
+                
+              tr
+                td P005	
+                td Lucía Torres	
+                td 49	
+                td F	
+                td 12/03/2025	
+                td Dolor lumbar	
+                td Medio
+    p La estructuración de estos datos en un formato tabular permite una gestión eficiente en distintos ámbitos, como la atención médica. En la tabla 2, se describe un ejemplo de historia clínica con información clave sobre los pacientes, incluyendo su identificación, diagnóstico y nivel de riesgo. Esta organización facilita el acceso rápido a los datos, el seguimiento de la evolución clínica y la toma de decisiones informadas en el tratamiento de cada paciente. Además, la disposición estructurada de la información posibilita el análisis estadístico y la implementación de herramientas de inteligencia artificial para mejorar la precisión en los diagnósticos y optimizar la gestión hospitalaria.
 
-      
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.2 Características del ciberespacio
+      h2 1.2	Datos no estructurados
+    p.mb-4 Los datos no estructurados son aquellos que no siguen un modelo predefinido ni una organización tabular fija, a diferencia de los datos estructurados. No pueden almacenarse ni procesarse fácilmente en bases de datos relacionales sin una transformación previa. Se estima que representan aproximadamente el 80 % de los datos generados a nivel global (Gartner, citado en Katal et al., 2013). Ejemplos comunes incluyen correos electrónicos, documentos de texto, imágenes, videos y publicaciones en redes sociales.
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-3.col-6.col-md-6.col-8.mb-lg-0.d-none.d-lg-block
+        figure
+          img(src='@/assets/curso/temas/tema1/img6.png', alt='Imagen decorativa')
+      .col-lg-7
+        .cajon.color-secundario.p-4.mb-4
+          p En su estado original, estos datos no se ajustan directamente a las categorías de cualitativos o cuantitativos según los criterios del análisis estadístico tradicional. No obstante, para que los modelos de aprendizaje automático, como los Modelos de Lenguaje Grandes (LLMs), puedan utilizarlos, es necesario transformarlos en representaciones estructuradas o numéricas. Por ejemplo, los textos se tokenizan y convierten en embeddings numéricos, mientras que las imágenes se representan mediante matrices de valores de píxeles.
+        p La transformación de datos no estructurados permite su análisis y uso en diversas aplicaciones. En el caso de las imágenes, por ejemplo, cada píxel se representa con un valor numérico que refleja su intensidad o color. Una vez procesados, estos datos pueden analizarse como variables cuantitativas continuas o, tras una categorización, como variables cualitativas discretas. Gracias a esta conversión, los modelos de inteligencia artificial pueden identificar patrones y extraer información valiosa para tareas como la clasificación de imágenes, el análisis de sentimientos en texto y la generación de lenguaje natural.
+    p.mb-4 En la tabla 3 se presentan ejemplos de datos no estructurados y sus formatos más comunes:
+    
+    .titulo-sexto.color-acento-contenido.offset-0(data-aos="zoom-in")
+      h5 Tabla 3.
+      span  #[i Formatos de datos no estructurados]
 
-    p.mb-5 El ciberespacio es un entorno digital dinámico que ha transformado la manera en que las personas interactúan, trabajan y acceden a la información. Su naturaleza única lo diferencia de otros espacios de comunicación y transacción, ya que no está limitado por fronteras físicas ni restricciones temporales. A continuación, se presentan sus principales características:
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        .tabla-a.color-acento-contenido.mb-4(data-aos="fade-left")
+          table(alt="")
+            thead
+              tr
+                th Tipo de Dato	
+                th Ejemplo concreto
+            tbody
+              tr
+                td Texto libre	
+                td Comentarios en redes sociales, opiniones en Amazon.
+              tr
+                td Imágenes	
+                td Fotografías almacenadas en el móvil o en Google Photos.
+              tr
+                td Audio	
+                td Grabaciones de llamadas, podcasts, notas de voz.
+              tr
+                td Video	
+                td Clases grabadas, transmisiones en vivo, videos de YouTube.
+              tr
+                td Documentos diversos	
+                td PDFs, presentaciones, archivos Word con texto sin estructura.
+              tr
+                td Correos electrónicos	
+                td Emails con texto, archivos adjuntos y formato libre.
 
-    .row.justify-content-center.align-items-center(data-aos="fade-down")
-      .col-lg-3.d-none.d-lg-block
-        figure(data-aos="zoom-in")
-          img(src="@/assets/curso/temas/tema1/img08.png", alt="alt").img400.m-auto
-      .col-lg-9
-        SlyderF.custom(columnas="col-lg-6 col-xl-4")
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
-              .col-6.col-lg-8
-                img(src="@/assets/curso/temas/tema1/img09.svg", alt="alt").img100.m-auto
-            h4.titulo-1 Globalidad
-            p.mb-0 El ciberespacio trasciende fronteras geográficas y permite la interacción entre personas, organizaciones y sistemas en todo el mundo, facilitando la conectividad global.
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
-              .col-6.col-lg-8
-                img(src="@/assets/curso/temas/tema1/img10.svg", alt="alt").img100.m-auto
-            h4.titulo-1 Interactividad
-            p.mb-0 No se limita a la recepción de información; los usuarios pueden generar, modificar y compartir contenido en tiempo real, fomentando la participación activa.
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
-              .col-6.col-lg-8
-                img(src="@/assets/curso/temas/tema1/img11.svg", alt="alt").img100.m-auto
-            h4.titulo-1 Desmaterialización
-            p.mb-0 La información y las actividades en línea no dependen de un espacio físico, lo que permite la digitalización de documentos, servicios y transacciones.
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
-              .col-6.col-lg-8
-                img(src="@/assets/curso/temas/tema1/img12.svg", alt="alt").img100.m-auto
-            h4.titulo-1 Accesibilidad
-            p.mb-0 Disponible las 24 horas del día desde diversos dispositivos conectados a la red, lo que facilita la inmediatez en el acceso a datos y servicios.
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
-              .col-6.col-lg-8
-                img(src="@/assets/curso/temas/tema1/img13.svg", alt="alt").img100.m-auto
-            h4.titulo-1 Anonimato relativo
-            p.mb-0 Aunque existen mecanismos de identificación, los usuarios pueden interactuar sin revelar completamente su identidad, lo que puede ser tanto una ventaja como un riesgo.
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
-              .col-6.col-lg-8
-                img(src="@/assets/curso/temas/tema1/img14.svg", alt="alt").img100.m-auto
-            h4.titulo-1 Virtualidad
-            p.mb-0 Aunque sus efectos pueden ser tangibles en la vida real, su existencia es completamente digital y no depende de estructuras físicas.
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
-              .col-6.col-lg-8
-                img(src="@/assets/curso/temas/tema1/img15.svg", alt="alt").img100.m-auto
-            h4.titulo-1 Conectividad constante
-            p.mb-0 La interconexión entre sistemas, dispositivos y personas es permanente, lo que permite el flujo ininterrumpido de información y servicios.
-
+    p Los datos no estructurados representan un reto y una oportunidad en el análisis de información. Su flexibilidad permite capturar detalles ricos y contextuales, pero también requiere herramientas avanzadas para su procesamiento. Tecnologías como el procesamiento de lenguaje natural, la visión por computadora y la inteligencia artificial han facilitado la extracción de valor a partir de estos datos. En sectores como la salud, el comercio y la ciberseguridad, su análisis ha permitido mejorar la toma de decisiones, automatizar procesos y descubrir patrones que serían difíciles de detectar con métodos tradicionales.
     separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.3 Tipos de ciberespacio
+      h2 1.3	Datos semiestructurados
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-7
+        p Los datos semiestructurados representan una forma híbrida de información que combina elementos de datos estructurados y no estructurados. A diferencia de los datos estructurados, que se organizan de manera rígida en bases de datos relacionales, los datos semiestructurados no siguen un esquema fijo, aunque conservan ciertos elementos organizativos. Esta flexibilidad permite representar jerarquías y relaciones complejas dentro de los datos, facilitando su adaptación a diferentes necesidades y contextos.
+        .cajon.color-primario.p-4.mb-4
+          p Ejemplos comunes de datos semiestructurados son los archivos XML y JSON, que utilizan etiquetas o pares clave-valor para organizar la información. También se incluyen correos electrónicos con metadatos, logs de servidores y archivos YAML, los cuales contienen estructura, pero sin ajustarse a una forma tabular estricta.
+      .col-lg-5.col-6.col-md-6.col-8.mb-lg-0.d-none.d-lg-block
+        figure
+          img(src='@/assets/curso/temas/tema1/img7.png', alt='Imagen decorativa')
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-3.col-6.col-md-6.col-8.mb-lg-0.d-none.d-lg-block
+        figure
+          img(src='@/assets/curso/temas/tema1/img8.svg', alt='Imagen decorativa')
+      .col-lg-7
+        p Los datos semiestructurados son especialmente útiles en escenarios donde las estructuras de datos pueden evolucionar con el tiempo o cuando se trabaja con fuentes de información heterogéneas. Se emplean ampliamente en tecnologías web, integración de datos en plataformas diversas y sistemas de gestión documental. Además, son esenciales en entornos donde la interoperabilidad y el intercambio de información entre distintos sistemas requieren flexibilidad sin perder organización.
+        p Su uso ha crecido con el auge del big data y la computación en la nube, ya que facilitan la recopilación y análisis de grandes volúmenes de información procedente de diversas fuentes. En la tabla 4 se presentan algunos tipos de archivos comúnmente clasificados como semiestructurados.
+    
+    .titulo-sexto.color-acento-contenido.offset-0(data-aos="zoom-in")
+      h5 Tabla 4.
+      span  #[i Ejemplo de tipos de datos semiestructurados]
 
-    p.mb-5 El ciberespacio no es un entorno uniforme, sino un ecosistema digital con múltiples áreas especializadas según su uso y accesibilidad. Se puede clasificar en función de sus propósitos, los actores involucrados y las regulaciones que lo rigen. A continuación, se presentan los principales tipos de ciberespacio:
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        .tabla-a.color-acento-contenido.mb-4(data-aos="fade-left")
+          table(alt="")
+            thead
+              tr
+                th Tipo de archivo	
+                th Ejemplo de contenido
+            tbody
+              tr
+                td JSON (JavaScript Object Notation)	
+                td {"nombre": "Ana", "edad": 30, "activo": true}
+              tr
+                td XML (eXtensible Markup Language)	
+                td <cliente><nombre>Ana</nombre><edad>30</edad></cliente>
+              tr
+                td Archivos YAML	
+                td nombre: Ana\nedad: 30\nactivo: true
+              tr
+                td Correos electrónicos con metadatos	
+                td Asunto, fecha, remitente, cuerpo del mensaje.
+              tr
+                td Logs de servidor	
+                td Estructurados por línea pero no en formato tabular.
+    p A continuación, en la tabla 5 se presenta una comparación entre los diferentes tipos de datos analizados hasta ahora.
 
-    .row.justify-content-center.align-items-center.mb-0(data-aos="flip-up")
+    .titulo-sexto.color-acento-contenido.offset-0(data-aos="zoom-in")
+      h5 Tabla 5.
+      span  #[i Comparativa de datos]
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        .tabla-a.color-acento-contenido.mb-4(data-aos="fade-left")
+          table(alt="")
+            thead
+              tr
+                th Característica	
+                th Estructurados	
+                th Semiestructurados	
+                th No estructurados
+            tbody
+              tr
+                td Formato	
+                td Tablas (SQL)	
+                td Etiquetas (XML, JSON)	
+                td Texto libre, imágenes
+              tr
+                td Esquema	
+                td Fijo	
+                td Flexible	
+                td Ausente
+              tr
+                td Ejemplo	
+                td Tabla de ventas	
+                td JSON de pedidos online	
+                td Opiniones en redes
+              tr
+                td Almacenamiento	
+                td Bases de datos SQL	
+                td Bases de datos NoSQL	
+                td Sistemas de archivos
+              tr
+                td Facilidad de análisis	
+                td Alta	
+                td Moderada	
+                td Baja (requiere IA, NLP)
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Los datos no estructurados representan un reto y una oportunidad en el análisis de información. Su flexibilidad permite capturar detalles ricos y contextuales, pero también requiere herramientas avanzadas para su procesamiento. Tecnologías como el procesamiento de lenguaje natural, la visión por computadora y la inteligencia artificial han facilitado la extracción de valor a partir de estos datos. En sectores como la salud, el comercio y la ciberseguridad, su análisis ha permitido mejorar la toma de decisiones, automatizar procesos y descubrir patrones que serían difíciles de detectar con métodos tradicionales.
+    separador
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 1.4	Calidad de los datos
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p La calidad de los datos se refiere a la idoneidad de los datos para servir a un propósito específico, como el análisis, la toma de decisiones o el entrenamiento de modelos de inteligencia artificial. En la metodología Data Assay, se describe como un proceso que "literalmente evalúa la calidad o el valor de los datos para la minería de datos" (Pyle, 1999). La calidad de los datos abarca múltiples dimensiones que determinan su fiabilidad y utilidad.
+        p Las principales características de la calidad de los datos son:
+
+    LineaTiempoD.color-acento-botones.mb-4
+      .row(numero="1" titulo="Precisión y exactitud")
+        .col-md-12.mb-4.mb-md-0
+          p Los datos deben reflejar la realidad sin errores. La exactitud implica que los valores registrados sean correctos, mientras que la precisión se refiere a la consistencia en la medición. Errores de medición, transcripción o interpretación pueden afectar estos aspectos (Del Pino, 2008).
+        .col-md-12
+          figure
+            img(src='@/assets/curso/temas/tema1/img9.png', alt='Texto que describa la imagen')
+      .row(numero="2" titulo="Integridad y validez")
+        .col-md-12.mb-4.mb-md-0
+          p Un dato de calidad es válido si pertenece a su espacio muestral correcto. Datos incompletos o con valores no válidos (como “No sabe/No contesta”) pueden comprometer la fiabilidad del análisis (Viedma, 2018).      
+        .col-md-12
+          figure
+            img(src='@/assets/curso/temas/tema1/img10.png', alt='Texto que describa la imagen')
+      .row(numero="3" titulo="Consistencia y coherencia")
+        .col-md-12.mb-4.mb-md-0
+          p Los datos deben mantenerse uniformes en diferentes sistemas y bases de datos. La falta de coherencia, como diferencias en nombres o formatos entre conjuntos de datos, puede generar errores en el análisis.
+        .col-md-12
+          figure
+            img(src='@/assets/curso/temas/tema1/img11.png', alt='Texto que describa la imagen')
+      .row(numero="4" titulo="Completitud")
+        .col-md-12.mb-4.mb-md-0
+          p Un conjunto de datos de calidad debe contener toda la información necesaria para su propósito. Datos faltantes o incompletos pueden afectar la validez de los resultados.
+        .col-md-12
+          figure
+            img(src='@/assets/curso/temas/tema1/img12.png', alt='Texto que describa la imagen')
+      .row(numero="5" titulo="Actualidad y temporalidad")
+        .col-md-12.mb-4.mb-md-0
+          p La información debe estar actualizada y reflejar la realidad en el momento en que se usa. Datos desactualizados pueden generar decisiones erróneas.     
+        .col-md-12
+          figure
+            img(src='@/assets/curso/temas/tema1/img13.png', alt='Texto que describa la imagen')
+      .row(numero="6" titulo="Accesibilidad y usabilidad")
+        .col-md-12.mb-4.mb-md-0
+          p La calidad de los datos también depende de su disponibilidad para los usuarios adecuados en el momento oportuno. Los datos deben estar bien documentados y en formatos utilizables.
+        .col-md-12
+          figure
+            img(src='@/assets/curso/temas/tema1/img14.png', alt='Texto que describa la imagen')
+      .row(numero="7" titulo="Adecuación al propósito")
+        .col-md-12.mb-4.mb-md-0
+          p La granularidad o nivel de detalle de los datos debe ser apropiado para el análisis que se pretende realizar. Datos demasiado generales o específicos pueden afectar la interpretación y los resultados.
+        .col-md-12
+          figure
+            img(src='@/assets/curso/temas/tema1/img15.png', alt='Texto que describa la imagen')
+
+    p.mb-5 Además, es importante considerar los diferentes tipos de calidad de datos, los cuales incluyen:
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+      .tarjeta.tarjeta--BG01.color-primario.p-4
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/tema1/img16.svg' alt='AvatarTop')
+        h5.text-center Calidad intrínseca
+        p.text-center Relacionada con la precisión, consistencia y validez de los datos, independientemente de su uso.
+      .tarjeta.tarjeta--BG01.color-primario.p-4
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/tema1/img17.svg' alt='AvatarTop')
+        h5.text-center Calidad contextual
+        p.text-center Evalúa si los datos son adecuados para un propósito específico, considerando factores como la completitud y la actualidad.
+      .tarjeta.tarjeta--BG01.color-primario.p-4
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/tema1/img18.svg' alt='AvatarTop')
+        h5.text-center Calidad de representación
+        p.text-center Se refiere a la claridad con la que los datos están estructurados y documentados, incluyendo su formato y facilidad de comprensión.
+      .tarjeta.tarjeta--BG01.color-primario.p-4
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/tema1/img19.svg' alt='AvatarTop')
+        h5.text-center Calidad operativa o de accesibilidad
+        p.text-center Determina si los datos pueden ser obtenidos y utilizados sin restricciones, asegurando su disponibilidad y seguridad.
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .row.justify-content-center
-          .col-lg-8.col-12.mb-md-0
-            LineaTiempoD.color-acento-botones.especial
-              .row(numero="1" titulo="Ciberespacio público")
-                .col-12.mb-4.mb-md-0
-                  p Comprende las áreas de Internet de libre acceso para todos los usuarios, como sitios web informativos, redes sociales abiertas y foros públicos. Es un espacio de intercambio global donde la información circula sin restricciones significativas.
-              
-              .row(numero="2" titulo="Ciberespacio privado")
-                .col-12.mb-4.mb-md-0
-                  p Incluye redes digitales con acceso restringido, como sistemas internos de empresas, correos electrónicos corporativos y plataformas bancarias. La seguridad y la privacidad son esenciales en este entorno.
-
-              .row(numero="3" titulo="Ciberespacio comercial")
-                .col-12.mb-4.mb-md-0
-                  p Se centra en las actividades económicas y el comercio digital, abarcando tiendas en línea, plataformas de pago electrónico y servicios de suscripción. Su expansión ha transformado la forma en que se realizan transacciones a nivel global.
-
-              .row(numero="4" titulo="Ciberespacio gubernamental")
-                .col-12.mb-4.mb-md-0
-                  p Utilizado por entidades estatales para gestionar bases de datos oficiales, ofrecer servicios públicos y facilitar la comunicación con la ciudadanía. Su objetivo es optimizar la administración electrónica y garantizar la transparencia.
-
-              .row(numero="5" titulo="Ciberespacio militar o estratégico")
-                .col-12.mb-4.mb-md-0
-                  p Comprende la infraestructura digital utilizada para la defensa, la inteligencia y la seguridad nacional. Incluye sistemas de vigilancia, redes de comunicación militar y plataformas de ciberdefensa.
-
-              .row(numero="6" titulo="Ciberespacio educativo")
-                .col-12.mb-4.mb-md-0
-                  p Espacio destinado a la educación y la capacitación a través de plataformas de aprendizaje en línea, repositorios académicos y entornos virtuales. Su relevancia ha aumentado con la digitalización de la enseñanza.
-
-              .row(numero="7" titulo="Ciberespacio criminal")
-                .col-12.mb-4.mb-md-0
-                  p Incluye redes clandestinas y foros utilizados para actividades ilícitas, como el tráfico de datos, la ciberdelincuencia y los ataques informáticos. El "dark web" es un ejemplo representativo de este tipo de ciberespacio.
-
-          .col-lg-4.col-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-3.d-none.d-lg-block
-            figure
-              img(src='@/assets/curso/temas/tema1/img16.png', alt='Imagen decorativa')
-
-        
-    //- .titulo-segundo.color-secundario(data-aos="fade-right")
-    //-   h2 1.1  Título de segundo nivel, 24pt
-    //- p.mb-5 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis. Maecenas cursus ante a diam porttitor mollis. Etiam vehicula dictum diam, eu pulvinar odio ultrices non. Vivamus viverra fermentum tortor, sit amet interdum nisl fermentum sed.
-
-    //- h3.titulo-tercero(data-aos="fade-right") Título de tercer nivel, 20pt
-    //- p.mb-5 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis. Maecenas cursus ante a diam porttitor mollis. Etiam vehicula dictum diam, eu pulvinar odio ultrices non. Vivamus viverra fermentum tortor, sit amet interdum nisl fermentum sed.
-
-    //- h4.titulo-cuarto(data-aos="fade-right") Título de cuarto nivel, 18pt
-    //- p.mb-5 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis. Maecenas cursus ante a diam porttitor mollis. Etiam vehicula dictum diam, eu pulvinar odio ultrices non. Vivamus viverra fermentum tortor, sit amet interdum nisl fermentum sed.
-
-    //- .titulo-quinto.color-acento-contenido(data-aos="fade-right")
-    //-   h4 Título de quinto nivel, 18pt
-
-    //- p.mb-5 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis. Maecenas cursus ante a diam porttitor mollis. Etiam vehicula dictum diam, eu pulvinar odio ultrices non. Vivamus viverra fermentum tortor, sit amet interdum nisl fermentum sed.
-
-    //- .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-    //-   h5 Título de sexto nivel, 16pt
-    //-   span subtitulo
-
-    //- p.mb-0 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis. Maecenas cursus ante a diam porttitor mollis. Etiam vehicula dictum diam, eu pulvinar odio ultrices non. Vivamus viverra fermentum tortor, sit amet interdum nisl fermentum sed.
-
-    //- Separador
-    //- #parrafos.titulo-segundo.color-acento-botones(data-aos="fade-right")
-    //-   h2 Párrafos
-
-    //- p.mb-0 Los párrafos mantienen un tamaño regular de 16 pt con interlineado base de 24 pt, sin embargo, existe excepciones para resaltar contenido donde se puede hacer uso de pesos 
-    //-   | #[span.text-thin THIN], 
-    //-   | #[strong BOLD], y #[span.text-black BLACK] 
-    //-   | o #[mark etiquetas] de color (según paleta del programa). Así mismo, el ancho de los cajones textos permite variación en las doce (12) columnas.
-
-    //- Separador
-    //- #listas.titulo-segundo.color-acento-botones(data-aos="fade-right")
-    //-   h2 Listas
-    
-    //- p.mb-3 Se debe tener en cuenta que las personas realizan un escaneo del mismo para encontrar elementos de su interés. Las listas deben estar compuestas por elementos relacionados entre sí, con un orden específico o un conteo importante. 
-  
-    //- ul.lista-ul.mb-3(data-aos="fade-right")
-    //-   li
-    //-     i.lista-ul__vineta
-    //-     | Texto
-    //-   li 
-    //-     i.lista-ul__vineta
-    //-     | Cita o Referencia
-    //-   li  
-    //-     i.lista-ul__vineta
-    //-     | Imagen + Texto
-
-    //- .h5 Requerimientos de información:
-
-    //- ul.lista-ul.mb-5(data-aos="fade-right")
-    //-   li 
-    //-     i.lista-ul__vineta
-    //-     | Título conciso y claro.
-    //-   li 
-    //-     i.lista-ul__vineta
-    //-     | Si el texto del item es largo, la extensión máxima será de cuatro líneas en word tamaño carta. 
-    //-   li 
-    //-     i.lista-ul__vineta
-    //-     | Enfatizar ciertos puntos diferenciándolos del resto del texto.
-    //-   li 
-    //-     i.lista-ul__vineta
-    //-     | Cuando desee comunicar un procedimiento paso por paso y cuando el orden de los elementos sea necesario.
-
-    //- h3 Listado ordenado
-    //- .row.mb-5
-    //-   .col-lg.mb-lg-0.mb-4(data-aos="fade-right")
-    //-     h4 Listado ordenado básico
-    //-     ol.lista-ol
-    //-       li 
-    //-         span.text-bold 1. 
-    //-         | Item lista ordenada 1 
-    //-         i Texto en Italica
-    //-       li 
-    //-         span.text-bold 2. 
-    //-         | Item lista ordenada 2
-    //-       li 
-    //-         span.text-bold 3. 
-    //-         | Item lista ordenada 3
-    //-       li 
-    //-         span.text-bold 4. 
-    //-         | Item lista ordenada 4
-    //-       li 
-    //-         span.text-bold 5. 
-    //-         | Item lista ordenada 5
-    //-   .col-lg.mb-lg-0.mb-5(data-aos="flip-up")
-    //-     h4 Listado ordenado básico
-    //-     ol.lista-ol
-    //-       li 
-    //-         span.text-bold a. 
-    //-         | Item lista ordenada a 
-    //-         i Texto en Italica
-    //-       li 
-    //-         span.text-bold b. 
-    //-         | Item lista ordenada b
-    //-       li 
-    //-         span.text-bold c. 
-    //-         | Item lista ordenada c
-    //-       li 
-    //-         span.text-bold d. 
-    //-         | Item lista ordenada d
-    //-       li 
-    //-         span.text-bold e. 
-    //-         | Item lista ordenada e
-    //-   .col-lg(data-aos="fade-left")
-    //-     h4 Listado ordenado básico + separadores
-    //-     ol.lista-ol.lista-ol--separador
-    //-       li 
-    //-         span.text-bold a. 
-    //-         | Item lista ordenada a 
-    //-         i Texto en Italica
-    //-       li 
-    //-         span.text-bold b. 
-    //-         | Item lista ordenada b
-    //-       li 
-    //-         span.text-bold c. 
-    //-         | Item lista ordenada c
-    //-       li 
-    //-         span.text-bold d. 
-    //-         | Item lista ordenada d
-    //-       li 
-    //-         span.text-bold e. 
-    //-         | Item lista ordenada e
-
-    //- .row.mb-5
-    //-   .col-lg.mb-lg-0.mb-4(data-aos="fade-right")
-    //-     h4 Listado ordenado cuadro color
-    //-     ol.lista-ol--cuadro
-    //-       li 
-    //-         .lista-ol--cuadro__vineta
-    //-           span 1
-    //-         | Item lista ordenada 1 
-    //-         i Texto en Italica
-    //-       li 
-    //-         .lista-ol--cuadro__vineta
-    //-           span 2
-    //-         | Item lista ordenada 2
-    //-       li 
-    //-         .lista-ol--cuadro__vineta
-    //-           span 3
-    //-         | Item lista ordenada 3
-    //-       li 
-    //-         .lista-ol--cuadro__vineta
-    //-           span 4
-    //-         | Item lista ordenada 4
-    //-       li 
-    //-         .lista-ol--cuadro__vineta
-    //-           span 5
-    //-         | Item lista ordenada 5
-    //-   .col-lg.mb-lg-0.mb-4(data-aos="flip-up")
-    //-     h4 Listado ordenado cuadro color
-    //-     ol.lista-ol--cuadro
-    //-       li 
-    //-         .lista-ol--cuadro__vineta
-    //-           span a
-    //-         | Item lista ordenada a
-    //-       li 
-    //-         .lista-ol--cuadro__vineta
-    //-           span b
-    //-         | Item lista ordenada b
-    //-       li 
-    //-         .lista-ol--cuadro__vineta
-    //-           span c
-    //-         | Item lista ordenada c
-    //-       li 
-    //-         .lista-ol--cuadro__vineta
-    //-           span d
-    //-         | Item lista ordenada d
-    //-       li 
-    //-         .lista-ol--cuadro__vineta
-    //-           span e
-    //-         | Item lista ordenada e
-    //-   .col-lg.mb-lg-0.mb-4(data-aos="fade-left")
-    //-     h4 Listado ordenado cuadro color + separadores
-    //-     ol.lista-ol--cuadro.lista-ol--separador
-    //-       li 
-    //-         .lista-ol--cuadro__vineta
-    //-           span a
-    //-         | Item lista ordenada a
-    //-       li 
-    //-         .lista-ol--cuadro__vineta
-    //-           span b
-    //-         | Item lista ordenada b
-    //-       li 
-    //-         .lista-ol--cuadro__vineta
-    //-           span c
-    //-         | Item lista ordenada c
-    //-       li 
-    //-         .lista-ol--cuadro__vineta
-    //-           span d
-    //-         | Item lista ordenada d
-    //-       li 
-    //-         .lista-ol--cuadro__vineta
-    //-           span e
-    //-         | Item lista ordenada e
-
-    //- h3 Listado no ordenado
-
-    //- .row.mb-5
-    //-   .col-lg.mb-lg-0.mb-4(data-aos="fade-right")
-    //-     h4 Listado no ordenado básico
-    //-     ul.lista-ul
-    //-       li 
-    //-         i.lista-ul__vineta
-    //-         | Item lista no ordenada
-    //-       li
-    //-         ul
-    //-           li 
-    //-             i.lista-ul__vineta
-    //-             | Item lista no ordenada
-    //-           li 
-    //-             i.lista-ul__vineta
-    //-             | Item lista no ordenada
-    //-       li 
-    //-         i.lista-ul__vineta
-    //-         | Item lista no ordenada
-    //-       li 
-    //-         i.lista-ul__vineta
-    //-         | Item lista no ordenada
-    //-   .col-lg.mb-lg-0.mb-4(data-aos="flip-up")
-    //-     h4 Listado no ordenado básico
-    //-     ul.lista-ul
-    //-       li 
-    //-         i.fas.fa-angle-right
-    //-         | Item lista no ordenada
-    //-       li
-    //-         ul
-    //-           li 
-    //-             i.fas.fa-angle-right
-    //-             | Item lista no ordenada
-    //-           li 
-    //-             i.fas.fa-angle-right
-    //-             | Item lista no ordenada 
-    //-             i Texto en Italica
-    //-       li 
-    //-         i.fas.fa-angle-right
-    //-         | Item lista no ordenada
-    //-       li 
-    //-         i.fas.fa-angle-right
-    //-         | Item lista no ordenada 
-    //-         i Texto en Italica
-    //-   .col-lg(data-aos="fade-left")
-    //-     h4 Listado no ordenado básico + separadores
-    //-     ul.lista-ul--separador
-    //-       li 
-    //-         i.fas.fa-angle-right
-    //-         | Item lista no ordenada
-    //-       li.pb-0
-    //-         ul
-    //-           li 
-    //-             i.fas.fa-angle-right
-    //-             | Item lista no ordenada
-    //-           li 
-    //-             i.fas.fa-angle-right
-    //-             | Item lista no ordenada
-    //-       li 
-    //-         i.fas.fa-angle-right
-    //-         | Item lista no ordenada
-    //-       li 
-    //-         i.fas.fa-angle-right
-    //-         | Item lista no ordenada
-
-    //- .row
-    //-   .col-lg.mb-lg-0.mb-4(data-aos="fade-right")
-    //-     h4 Listado no ordenado color
-    //-     ul.lista-ul--color
-    //-       li 
-    //-         i.lista-ul__vineta
-    //-         | Item lista no ordenada 
-    //-         i Texto en Italica
-    //-       li
-    //-         ul
-    //-           li 
-    //-             i.lista-ul__vineta
-    //-             | Item lista no ordenada
-    //-           li 
-    //-             i.lista-ul__vineta
-    //-             | Item lista no ordenada
-    //-       li 
-    //-         i.lista-ul__vineta
-    //-         | Item lista no ordenada
-    //-       li 
-    //-         i.lista-ul__vineta
-    //-         | Item lista no ordenada
-    //-   .col-lg.mb-lg-0.mb-4(data-aos="flip-up")
-    //-     h4 Listado no ordenado color
-    //-     ul.lista-ul--color
-    //-       li 
-    //-         i.fas.fa-brain
-    //-         | Item lista no ordenada 
-    //-         i Texto en Italica
-    //-       li
-    //-         ul
-    //-           li 
-    //-             i.fas.fa-bug
-    //-             | Item lista no ordenada
-    //-           li 
-    //-             i.fas.fa-car-side
-    //-             | Item lista no ordenada
-    //-       li 
-    //-         i.fas.fa-compass
-    //-         | Item lista no ordenada
-    //-       li 
-    //-         i.fas.fa-eye
-    //-         | Item lista no ordenada
-    //-   .col-lg(data-aos="fade-left")
-    //-     h4 Listado no ordenado color + separadores
-    //-     ul.lista-ul--color.lista-ul--separador
-    //-       li 
-    //-         i.fas.fa-feather
-    //-         | Item lista no ordenada 
-    //-         i Texto en Italica
-    //-       li.pb-0
-    //-         ul
-    //-           li 
-    //-             i.fas.fa-cookie
-    //-             | Item lista no ordenada 
-    //-             b texto bold
-    //-           li 
-    //-             i.fas.fa-hat-wizard
-    //-             | Item lista no ordenada
-    //-       li 
-    //-         i.fas.fa-hippo
-    //-         | Item lista no ordenada
-    //-       li 
-    //-         i.fas.fa-kiwi-bird
-    //-         | Item lista no ordenada
-
-    //- #tablas.titulo-segundo.color-acento-botones
-    //-   h2 Tablas
-
-    //- .h5 Requerimientos de información
-
-    //- ul.lista-ul.mb-5(data-aos="fade-right")
-    //-   li 
-    //-     i.lista-ul__vineta
-    //-     | Se requiere que la información contenida dentro de las tablas propuestas en los materiales, se encuentre digitalizada únicamente en formato excel. 
-
-    //- //- .tabla-a debe ir acompañado de una de una de estas clases => 
-    //- //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //- .titulo-sexto.color-secundario(data-aos="fade-right")
-    //-   h5 Tabla A.
-    //-   i Titulo_tabla
-    //- .tabla-a.color-acento-botones.mb-5 
-    //-   table(data-aos="zoom-in" alt="Texto alternativo tabla")
-    //-     caption Nota. <span style="font-weight: 400">Tomado referencia.</span>
-    //-     thead
-    //-       tr(data-aos="fade-right")
-    //-         th Encabezado 1
-    //-         th Encabezado 2
-    //-         th Encabezado 3
-    //-         th Encabezado 4
-    //-         th Encabezado 5
-    //-     tbody
-    //-       tr(data-aos="fade-right")
-    //-         td Celda 1
-    //-         td Celda 2
-    //-         td Celda 3
-    //-         td Celda 4
-    //-         td Celda 5
-    //-       tr(data-aos="fade-right")
-    //-         td Celda 1
-    //-         td Celda 2
-    //-         td Celda 3
-    //-         td Celda 4
-    //-         td Celda 5
-    //-       tr(data-aos="fade-right")
-    //-         td Celda 1
-    //-         td Celda 2
-    //-         td Celda 3
-    //-         td Celda 4
-    //-         td Celda 5
-
-    //- //- .tabla-a debe ir acompañado de una de una de estas clases => 
-    //- //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //- .titulo-sexto.color-secundario(data-aos="fade-right")
-    //-   h5 Tabla B.
-    //-   i Titulo_tabla
-    //- .tabla-b.color-acento-contenido.mb-5
-    //-   .tabla-b__header
-    //-     h4.mb-0 Niveles del lenguaje
-    //-   table(data-aos="zoom-in" alt="Texto alternativo tabla")
-    //-     caption Nota. <span style="font-weight: 400">Tomado referencia.</span>
-    //-     tr(data-aos="fade-right")
-    //-       th Vulgar
-    //-       td Get back to work. Learn from criticism. Creativity is a work-ethic. Design as if your life depended on it. Keep going. It isn’t what you are.
-    //-     tr(data-aos="fade-right")
-    //-       th Coloquial
-    //-       td It isn’t what you are, but what you’re going to become. Don’t censor yourself.  Sterility leads to susceptibility.It is, in effect, conditioned to prefer bad design.
-    //-     tr(data-aos="fade-right")
-    //-       th Convencional o estándar
-    //-       td Paul Rand once said, “The public is more familiar with bad design than good design. leassuring. You are not your work. Don’t fucking lie to yourself. Life depended on it. Keep going
-    //-     tr(data-aos="fade-right")
-    //-       th Técnico
-    //-       td The new becomes threatening, the old reassuring.” You are not your work. Don’t lie to yourself. Never, never assume that what Respect your craft. Widows and orphans are terrible.
-    //-     tr(data-aos="fade-right")
-    //-       th Formal
-    //-       td Design as if your life depended on it. Keep going. It isn’t what you are, but what you’re going to become. Don’t censor yourself. 
-
-    //- .titulo-sexto.color-secundario(data-aos="fade-right")
-    //-   h5 Tabla C.
-    //-   i Titulo_tabla
-    //- .tabla-c.mb-5
-    //-   table(data-aos="zoom-in" alt="Texto alternativo tabla")
-    //-     caption Nota. <span style="font-weight: 400">Tomado referencia.</span>
-    //-     tr(data-aos="fade-right")
-    //-       th 03 de marzo
-    //-       td 
-    //-         p.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
-    //-       td
-    //-         .h6.mb-0 $12.500.200
-    //-       td
-    //-         .h6.mb-0 $12.500.200
-    //-         span.text-small Textos pequeños
-    //-       td
-    //-         .h6 FDSD33
-    //-     tr(data-aos="fade-right")
-    //-       th 03 de marzo
-    //-       td 
-    //-         p.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
-    //-       td
-    //-         .h6.mb-0 $12.500.200
-    //-       td
-    //-         .h6.mb-0 $12.500.200
-    //-         span.text-small Textos pequeños
-    //-       td
-    //-         .h6 FDSD33
-    //-     tr(data-aos="fade-right")
-    //-       th 03 de marzo
-    //-       td 
-    //-         p.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
-    //-       td
-    //-         .h6.mb-0 $12.500.200
-    //-       td
-    //-         .h6.mb-0 $12.500.200
-    //-         span.text-small Textos pequeños
-    //-       td
-    //-         .h6 FDSD33
-    //-     tr(data-aos="fade-right")
-    //-       th 03 de marzo
-    //-       td 
-    //-         p.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
-    //-       td
-    //-         .h6.mb-0 $12.500.200
-    //-       td
-    //-         .h6.mb-0 $12.500.200
-    //-         span.text-small Textos pequeños
-    //-       td
-    //-         .h6 FDSD33
-    //-     tr(data-aos="fade-right")
-    //-       th 03 de marzo
-    //-       td 
-    //-         p.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
-    //-       td
-    //-         .h6.mb-0 $12.500.200
-    //-       td
-    //-         .h6.mb-0 $12.500.200
-    //-         span.text-small Textos pequeños
-    //-       td
-    //-         .h6 FDSD33
-
-    //- //- Formato Figura
-    //- .row.justify-content-center.mb-5
-    //-   .col-lg-8
-    //-     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-    //-       h5 Figura 1.
-    //-       i EstructuraX
-    //-     figure(data-aos="zoom-in")
-    //-       img(src='@/assets/template/img-placeholder.svg' alt="Imagen decorativa")
-    //-       figcaption Nota. <span style="font-weight: 400">Tomado referencia.</span>
-
-    //- #imagen_infografica.titulo-segundo.color-acento-botones(data-aos="fade-right")
-    //-   h2 Imagen Infográfica
-
-    //- h3 Imagen Infográfica A
-
-    //- ImagenInfografica.color-secundario.mb-5(data-aos="zoom-in")
-    //-   template(v-slot:imagen)
-    //-     figure
-    //-       img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-       figcaption Leyenda de la imagen
-    //-   .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
-    //-     .h5.mb-2 titulo
-    //-     p.mb-0 Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-    //-   .tarjeta.color-acento-botones.p-3(x="50%" y="50%" numero="A")
-    //-     .h5.mb-2 titulo
-    //-     p.mb-0 Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-    //-   .tarjeta.color-acento-botones.p-3(x="70%" y="70%" numero="B")
-    //-     .h5.mb-2 titulo
-    //-     p.mb-0 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-    //- h3 Imagen Infográfica B
-
-    //- ImagenInfograficaB.color-primario.mb-5(data-aos="zoom-in")
-    //-   template(v-slot:imagen)
-    //-     figure
-    //-       img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-       figcaption Leyenda de la imagen
-    //-   div(x="20%" y="20%" tooltip="tooltip de max 35 caracteres" numero="1")
-    //-     h5 titulo
-    //-     p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-    //-     p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-    //-     p.mb-0 Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-    //-   div(x="50%" y="50%" tooltip="tooltip de max 35 caracteres")
-    //-     .h5.mb-2 titulo
-    //-     p.mb-0 Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-    //-   div(x="70%" y="70%" tooltip="tooltip de max 35 caracteres")
-    //-     .h5.mb-2 titulo
-    //-     p.mb-0 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-    //- #video.titulo-segundo.color-acento-botones
-    //-   h2 Video
-
-    //- figure.mb-5(data-aos="zoom-in")
-    //-   .video
-    //-     iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    //-     figcaption Video: Leyenda del video
-    
-    //- h3.titulo-tercero Cajón texto color
-    //- //- .cajon debe ir acompañado de una de una de estas clases => 
-    //- //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //- .row.justify-content-center.mb-5
-    //-   .col-lg-4.mb-4(data-aos="fade-right")
-    //-     .cajon.color-primario.p-4
-    //-       .h5 Cajón texto color
-    //-       p.mb-0 Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.
-    //-   .col-lg-8.mb-4(data-aos="fade-left")
-    //-     .cajon.color-secundario.p-4
-    //-       .h5 Cajón texto color
-    //-       p.mb-0 Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.
-    //-   .col-lg-8.mb-4(data-aos="fade-right")
-    //-     .cajon.color-acento-contenido.p-4
-    //-       .h5 Cajón texto color
-    //-       p.mb-0 Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.
-    //-   .col-lg-4.mb-4(data-aos="fade-left")
-    //-     .cajon.color-acento-botones.p-4
-    //-       .h5 Cajón texto color
-    //-       p.mb-0 Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.
-
-    //- //- .cajon-b debe ir acompañado de una de una de estas clases => 
-    //- //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //- //- .arriba-derecha, .abajo-derecha, .abajo-izquierda (arriba-izquierda esta por defecto)
-    //- .cajon-b.color-primario.p-3.mb-5(data-aos="fade-right")
-    //-   p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel porta justo. Praesent congue nibh a justo ornare, eget vulputate nisl eleifend. Cras interdum finibus lacinia. Fusce dignissim sapien sit amet orci imperdiet, pharetra maximus nisi ullamcorper. Aliquam interdum elit ac nisi viverra, ultrices finibus est ultricies. Fusce tincidunt velit nulla. Aliquam eleifend libero eu neque rhoncus, sed placerat mi ornare.
-    //-   p.mb-0 Proin dignissim nisl ac iaculis molestie. Fusce et orci arcu. Cras ac ultricies nisl. Praesent posuere tempor felis in pharetra. Curabitur vestibulum, mi sed placerat accumsan, est nulla sagittis mi, non faucibus tortor ex ac lacus. Nunc condimentum dolor sem, et pulvinar sapien cursus ut. Aenean consequat pharetra rutrum. Nunc vel nunc laoreet, ornare augue a, efficitur quam.
-
-    //- h3.titulo-tercero Cajón texto color A
-    //- //- .bloque-texto-a debe ir acompañado de una de una de estas clases => 
-    //- //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //- .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
-    //-   .row.justify-content-between.align-items-center.m-0
-    //-     .col-lg-4.mb-lg-0.mb-4(data-aos="fade-right")
-    //-       h2.mb-0 Whatever can be captured in words can be conquered with understanding. 
-    //-     .col-lg-8(data-aos="fade-left")
-    //-       .bloque-texto-a__texto.p-4
-    //-         p Think about all the possibilities. A good composition is the result of a hierarchy consisting of clearly contrasting elements set with distinct alignments containing irregular intervals of negative space. Nothing of without working at it. Be impossible to ignore.
-    //-         p.mb-0 Stand so tall that they can’t look past you. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect accept possibility of failure. 
-
-    //- .row.justify-content-center.mb-5
-    //-   .col-lg-6.mb-lg-0.mb-4(data-aos="fade-right")
-    //-     h3.titulo-tercero Cajón texto color B
-    //-     //- .bloque-texto-b debe ir acompañado de una de una de estas clases => 
-    //-     //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-     .bloque-texto-b.color-secundario.p-4
-    //-       .bloque-texto-b__texto
-    //-         i.fas.fa-quote-left
-    //-         h2.mb-0 Can we all just agree as the greater design community to stop talking about Comic Sans altogether?
-    //-         i.fas.fa-quote-right
-    //-   .col-lg-6(data-aos="fade-left")
-    //-     h3.titulo-tercero Cajón texto color C
-    //-     //- .bloque-texto-c debe ir acompañado de una de una de estas clases => 
-    //-     //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-     .bloque-texto-c.color-secundario.p-4
-    //-       i.fas.fa-quote-right
-    //-       h2.mb-2 Then you’ll prove to yourself that you can survive anything.
-    //-       span - The graphic designer
-
-    //- .row.justify-content-center.mb-5
-    //-   .col-lg-6.mb-lg-0.mb-4(data-aos="fade-right")
-    //-     h3.titulo-tercero Cajón texto color D
-    //-     //- .bloque-texto-d debe ir acompañado de una de una de estas clases => 
-    //-     //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-     .bloque-texto-d.color-secundario.p-4
-    //-       .bloque-texto-d__texto.mb-2
-    //-         i.fas.fa-quote-left
-    //-         h3.text-regular Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt augue in augue tempus, in dapibus justo interdum. Sed viverra sed odio quis rhoncus. In elementum purus massa, id venenatis purus ullamcorper ut. Vestibulum vel dictum dolor, nec fringilla orci. Nulla vestibulum, metus nec porttitor bibendum, lectus ligula viverra eros, eget tempor risus nulla pretium justo. Nullam turpis dolor, pharetra vel fermentum at, rutrum in elit. Maecenas vitae hendrerit libero, et ornare augue. Vestibulum iaculis, metus et accumsan malesuada, ligula sapien convallis risus, a iaculis velit ante at turpis. Vivamus bibendum tellus sed tincidunt rhoncus. Nam velit massa, porttitor eget quam et, porttitor viverra eros. Donec eget pharetra metus. Cras porta arcu eu mauris iaculis euismod. Sed fringilla vel nisl quis aliquam.
-    //-         i.fas.fa-quote-right
-    //-       .bloque-texto-d__autor 
-    //-         .h5.mb-0 The graphic designer
-    //-         .h6.mb-0 Lorem ipsum dolor sit amet
-    //-   .col-lg-6(data-aos="fade-left")
-    //-     h3.titulo-tercero Cajón texto color E
-    //-     //- .bloque-texto-e debe ir acompañado de una de una de estas clases => 
-    //-     //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-     .bloque-texto-e.color-secundario.p-4
-    //-       .bloque-texto-e__texto
-    //-         i.fas.fa-quote-left
-    //-         h2.text-regular Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt augue in augue tempus, in dapibus justo interdum. Sed viverra sed odio quis rhoncus. In elementum purus massa, id venenatis purus ullamcorper ut. Vestibulum vel dictum dolor, nec fringilla orci. Nulla vestibulum, metus nec porttitor bibendum, lectus ligula viverra eros, eget tempor risus nulla pretium justo. Nullam turpis dolor, pharetra vel fermentum at, rutrum in elit. Maecenas vitae hendrerit libero, et ornare augue. Vestibulum iaculis, metus et accumsan malesuada.
-    //-         i.fas.fa-quote-right
-    //-       .row.align-items-end
-    //-         .col
-    //-           .bloque-texto-e__autor 
-    //-             .h5.mb-0 The graphic designer
-    //-             .h6.mb-0 Lorem ipsum dolor sit amet
-    //-         .col-4
-    //-           img(src='@/assets/template/img-placeholder-1-1.svg', alt="Imagen decorativa")
-
-    //- h3.titulo-tercero Cajón texto color F
-    //- //- .bloque-texto-f debe ir acompañado de una de una de estas clases => 
-    //- //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //- .bloque-texto-f.color-secundario.pt-4.px-5.mb-5(data-aos="fade-right")
-    //-   .bloque-texto-f__comillas
-    //-     i.fas.fa-quote-left
-    //-     i.fas.fa-quote-right
-    //-   h4.text-regular.bloque-texto-f__texto Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt augue in augue tempus, in dapibus justo interdum. Sed viverra sed odio quis rhoncus. In elementum purus massa, id venenatis purus ullamcorper ut. Vestibulum vel dictum dolor, nec fringilla orci. Nulla vestibulum, metus nec porttitor bibendum, lectus ligula viverra eros, eget tempor risus nulla pretium justo. Nullam turpis dolor, pharetra vel fermentum at, rutrum in elit. Maecenas vitae hendrerit libero, et ornare augue. Vestibulum iaculis, metus et accumsan malesuada, ligula sapien convallis risus, a iaculis velit ante at turpis. Vivamus bibendum tellus sed tincidunt rhoncus. Nam velit massa, porttitor eget quam et, porttitor viverra eros. Donec eget pharetra metus. Cras porta arcu eu mauris iaculis euismod. Sed fringilla vel nisl quis aliquam.
-    //-   .bloque-texto-f__autor.mb-3
-    //-     h3.mb-0 The graphic designer
-    //-   .bloque-texto-f__avatar
-    //-     .bloque-texto-f__avatar__img
-    //-       img(src='@/assets/template/img-placeholder-1-1.svg', alt="Imagen decorativa")
-
-    //- h3.titulo-tercero Cajón texto color G
-    //- .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
-    //-   .bloque-texto-g__img(
-    //-     :style="{'background-image': `url(${require('@/assets/curso/img.jpg')})`}" data-aos="fade-right"
-    //-   )
-    //-   .bloque-texto-g__texto.p-4(data-aos="fade-left")
-    //-     p.mb-0 Think about all the possibilities. A good composition is the result of a hierarchy consisting of clearly contrasting elements set with distinct alignments containing irregular intervals of negative space. Nothing of without working at it. Be impossible to ignore.
-    //-       br
-    //-       br
-    //-       | Stand so tall that they can’t look past you. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect accept possibility of failure. 
-
-    //- .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5
-    //-   .bloque-texto-g__img(
-    //-     :style="{'background-image': `url(${require('@/assets/curso/img.jpg')})`}" data-aos="fade-left"
-    //-   )
-    //-   .bloque-texto-g__texto.p-4(data-aos="fade-right")
-    //-     p.mb-0 Think about all the possibilities. A good composition is the result of a hierarchy consisting of clearly contrasting elements set with distinct alignments containing irregular intervals of negative space. Nothing of without working at it. Be impossible to ignore.
-    //-       br
-    //-       br
-    //-       | Stand so tall that they can’t look past you. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect accept possibility of failure. 
-
-    //- .tarjeta.tarjeta--azul.p-4.mb-5
-    //-   h4.titulo-cuarto Tipo A
-    //-   SlyderA(data-aos="zoom-in")
-    //-     .row.justify-content-center
-    //-       .col-lg-6.order-lg-1.order-2
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-       .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg' alt="Imagen decorativa")
-    //-     .row.justify-content-center
-    //-       .col-lg-6.col-10.mb-lg-0.mb-4(data-aos="fade-right")
-    //-         img(src='@/assets/template/img-placeholder.svg' alt="Imagen decorativa")
-    //-       .col-lg-6(data-aos="fade-left")
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-     div
-    //-       figure
-    //-         img.w-75(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-
-    //- .tarjeta.tarjeta--azul.p-4.mb-5
-    //-   h4.titulo-cuarto Tipo B
-    //-   SlyderA(tipo="b" data-aos="zoom-in")
-    //-     .row.justify-content-center
-    //-       .col-lg-6.order-lg-1.order-2
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-       .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg' alt="Imagen decorativa")
-    //-     .row.justify-content-center
-    //-       .col-lg-6.col-10.mb-lg-0.mb-4(data-aos="fade-right")
-    //-         img(src='@/assets/template/img-placeholder.svg' alt="Imagen decorativa")
-    //-       .col-lg-6(data-aos="fade-left")
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-     div
-    //-       figure
-    //-         img.w-75(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-
-    //- h3 Slyder F
-
-    //- SlyderF.mb-5(columnas="col-lg-6 col-xl-4" data-aos="zoom-in")
-    //-   .tarjeta.color-acento-botones.p-4
-    //-     .row.justify-content-center.mb-4
-    //-       .col-8
-    //-         img(src='@/assets/componentes/ej-05.svg' alt="Imagen decorativa")
-    //-     h2.text-center FIRST
-    //-     p.text-center.mb-0 moment. Abandon the shelter  asdf asdf asdf asdf asdfasdf asaasdfa sdf asdfsadf asd fasd dsf sdf asdfa sdfasdf asd of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-    //-   .tarjeta.color-acento-botones.p-4
-    //-     .row.justify-content-center.mb-4
-    //-       .col-8
-    //-         img(src='@/assets/componentes/ej-05.svg' alt="Imagen decorativa")
-    //-     h2.text-center 2
-    //-     p.text-center.mb-0 moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-    //-   .tarjeta.color-acento-botones.p-4
-    //-     .row.justify-content-center.mb-4
-    //-       .col-8
-    //-         img(src='@/assets/componentes/ej-05.svg' alt="Imagen decorativa")
-    //-     h2.text-center 3
-    //-     p.text-center.mb-0 moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-    //-   .tarjeta.color-acento-botones.p-4
-    //-     .row.justify-content-center.mb-4
-    //-       .col-8
-    //-         img(src='@/assets/componentes/ej-05.svg' alt="Imagen decorativa")
-    //-     h2.text-center 4
-    //-     p.text-center.mb-0 moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-    //-   .tarjeta.color-acento-botones.p-4
-    //-     .row.justify-content-center.mb-4
-    //-       .col-8
-    //-         img(src='@/assets/componentes/ej-05.svg' alt="Imagen decorativa")
-    //-     h2.text-center LAST
-    //-     p.text-center.mb-0 moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-    //- h3 Slider Bootstrap
-    //- #carouselExampleIndicators.carousel.slide.mb-5(data-bs-ride='carousel' data-aos="zoom-in")
-    //-   .carousel-indicators
-    //-     button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
-    //-     button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
-    //-     button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='2' aria-label='Slide 3')
-    //-   .carousel-inner
-    //-     .carousel-item.active
-    //-       figure
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-     .carousel-item
-    //-       figure
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-     .carousel-item
-    //-       figure
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-   button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
-    //-     span.carousel-control-prev-icon(aria-hidden='true')
-    //-     span.visually-hidden Previous
-    //-   button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
-    //-     span.carousel-control-next-icon(aria-hidden='true')
-    //-     span.visually-hidden Next
-
-    //- AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="zoom-in")
-    //-   .row.justify-content-center(titulo="Titulo item 1")
-    //-     .col-lg-6.order-lg-1.order-2
-    //-       p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-     .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-       figure
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-   div(titulo="Titulo item 2")
-    //-     figure
-    //-       img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-       figcaption Leyenda de la imagen
-
-    //- h3 Acordion A tipo B
-    //- AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul" data-aos="zoom-in")
-    //-   .row.justify-content-center(titulo="Titulo item 1")
-    //-     .col-lg-6.order-lg-1.order-2
-    //-       p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-     .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-       figure
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-   div(titulo="Titulo item 2")
-    //-     figure
-    //-       img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-       figcaption Leyenda de la imagen
-
-    //- Separador
-    //- #tabs.titulo-segundo.color-acento-botones(data-aos="fade-right")
-    //-   h2 Pestañas o Tabs
-
-    //- p.mb-3 Es un elemento web que permite cambiar rápidamente el contenido que el usuario está consumiendo sin cambiar de ventana o desplazarse verticalmente por el sitio web. 
-
-    //- .h5 Requerimientos de información
-
-    //- ul.lista-ul.mb-5
-    //-   li(data-aos="fade-right") 
-    //-     i.lista-ul__vineta
-    //-     | Los títulos que actuará como botón que sea una palabra o frases muy cortas.
-    //-   li(data-aos="fade-right") 
-    //-     i.lista-ul__vineta
-    //-     | La cantidad máxima es de 5 items.
-    //-   li(data-aos="fade-right") 
-    //-     i.lista-ul__vineta
-    //-     | Se sugiere que la cantidad de texto sea igual o menor a 12 líneas de word tamaño carta. 
-    //-   li(data-aos="fade-right") 
-    //-     i.lista-ul__vineta
-    //-     | Se sugiere el uso de texto acompañado de imágenes que refuercen el contenido a representar. 
-    //-   li(data-aos="fade-right") 
-    //-     i.lista-ul__vineta
-    //-     | Se recomienda utilizar este componente para evidenciar procesos o temas generales compuesto de varias etapas.
-    //-   li(data-aos="fade-right") 
-    //-     i.lista-ul__vineta
-    //-     | No se debe utilizar para representar grandes cantidades de texto o contenido.
-    //-   li(data-aos="fade-right") 
-    //-     i.lista-ul__vineta
-    //-     | No se debe utilizar dentro de la pestaña o tab vídeos.
-
-    //- h3 Pestañas A
-    //- //- TabsA debe ir acompañado de una de una de estas clases => 
-    //- //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //- TabsA.color-acento-botones.mb-5(data-aos="fade-right")
-    //-   .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 1")
-    //-     h4 PASO 1: The splendor
-    //-     p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-    //-       strong user style sheets
-    //-       |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-    //-     p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-   .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 2")
-    //-     h4 PASO 2: The splendor
-    //-     .row.justify-content-center
-    //-       .col-lg-6.col-10.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-       .col-lg-6
-    //-         p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-    //-           strong user style sheets
-    //-           |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-   .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 3")
-    //-     h4 PASO 3: The splendor
-    //-     p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-    //-       strong user style sheets
-    //-       |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-    //-     p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-   .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 4")
-    //-     h4 PASO 4: The splendor
-    //-     p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-    //-       strong user style sheets
-    //-       |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-    //-     p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-   .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 5")
-    //-     h4 PASO 5: The splendor
-    //-     p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-    //-       strong user style sheets
-    //-       |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-    //-     p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-   .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 6")
-    //-     h4 PASO 6: The splendor
-    //-     p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-    //-       strong user style sheets
-    //-       |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-    //-     p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      
-    //- h3 Pestañas B
-    //- //- TabsB debe ir acompañado de una de una de estas clases => 
-    //- //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //- TabsB.color-acento-contenido.mb-5(data-aos="zoom-out")
-    //-   .py-4.py-lg-5(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
-    //-     .row.justify-content-center
-    //-       .col-lg-7.order-lg-1.order-2
-    //-         h4 Celebrate your failures 1
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-   .py-4.py-lg-5(titulo="Don’t lie to yourself" :icono="require('@/assets/componentes/ej-04.svg')")
-    //-     .row.justify-content-center
-    //-       .col-lg-6.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-       .col-lg-6
-    //-         h4 Celebrate your failures 2
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-   .py-4.py-lg-5(titulo="Don’t quit" :icono="require('@/assets/componentes/ej-04.svg')")
-    //-     .row.justify-content-center
-    //-       .col-lg-7.order-lg-1.order-2
-    //-         h4 Celebrate your failures 3
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-   .py-4.py-lg-5(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
-    //-     .row.justify-content-center
-    //-       .col-lg-6.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-       .col-lg-6
-    //-         h4 Celebrate your failures 4
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-   .py-4.py-lg-5(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
-    //-     .row.justify-content-center
-    //-       .col-lg-7.order-lg-1.order-2
-    //-         h4 Celebrate your failures 5
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen 
-    //-   .py-4.py-lg-5(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
-    //-     .row.justify-content-center
-    //-       .col-lg-6.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-       .col-lg-6
-    //-         h4 Celebrate your failures 6
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-    //- h3 Pestañas C
-    //- //- TabsC debe ir acompañado de una de una de estas clases => 
-    //- //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //- TabsC.color-primario.mb-5(data-aos="zoom-out")
-    //-   .py-3.py-md-4(titulo="The splendor of the mystery")
-    //-     .row.justify-content-center
-    //-       .col-lg-6.order-lg-1.order-2
-    //-         h4 Celebrate your failures 1
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-       .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-   .py-3.py-md-4(titulo="Don’t lie to yourself")
-    //-     .row.justify-content-center
-    //-       .col-lg-6.col-10.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-       .col-lg-6
-    //-         h4 Celebrate your failures 2
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-         .py-3.py-md-4(titulo="The splendor of the mystery")
-    //-     .row.justify-content-center
-    //-       .col-lg-6.order-lg-1.order-2
-    //-         h4 Celebrate your failures 3
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-       .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-   .py-3.py-md-4(titulo="Don’t lie to yourself")
-    //-     .row.justify-content-center
-    //-       .col-lg-6.col-10.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-       .col-lg-6
-    //-         h4 Celebrate your failures 4
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-         .py-3.py-md-4(titulo="The splendor of the mystery")
-    //-     .row.justify-content-center
-    //-       .col-lg-6.order-lg-1.order-2
-    //-         h4 Celebrate your failures 5
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-       .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-   .py-3.py-md-4(titulo="Don’t lie to yourself")
-    //-     .row.justify-content-center
-    //-       .col-lg-6.col-10.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-       .col-lg-6
-    //-         h4 Celebrate your failures 6
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-    //- h3 Linea Tiempo C
-    //- .tarjeta.tarjeta--gris.p-4.mb-5
-    //-   //- LineaTiempoC debe ir acompañado de una de una de estas clases => 
-    //-   //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-   //- text-small se usa para que los títulos sean mas pequeños
-    //-   LineaTiempoC.color-acento-contenido(text-small)
-    //-     .row.justify-content-center(titulo="1761")
-    //-       .col-lg-6.order-lg-1.order-2
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-       .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-     .row.justify-content-center(titulo="1798")
-    //-       .col-lg-6.order-lg-1.order-2
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion. 
-    //-       .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-     .row.justify-content-center(titulo="1887")
-    //-       .col-lg-6.order-lg-1.order-2
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-       .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-     div(titulo="1889")
-    //-       figure
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-     .row.justify-content-center(titulo="1899")
-    //-       .col-lg-6.order-lg-1.order-2
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-       .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-     div(titulo="1901")
-    //-       figure
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-     div(titulo="1930")
-    //-       figure
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-     div(titulo="1987")
-    //-       figure
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-
-    //- h3 Linea Tiempo D
-    //- .row.justify-content-center.mb-5
-    //-   .col-lg-6.mb-lg-0.mb-4(data-aos="fade-right")
-    //-     //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
-    //-     //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-     LineaTiempoD.color-secundario
-    //-       p.text-small(numero="1" titulo="Praesent luctus") Lorem ipsum dolor sit amet, consectetur adipiscvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar.     
-    //-       p.text-small(numero="2" titulo="Praesent luctus") Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar.
-    //-       p.text-small(numero="3" titulo="Praesent luctus") Donec feugiat volutpat metus at pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar.
-    //-       p.text-small(numero="4" titulo="Praesent luctus") quam cursus in. Donec feugiat volutpat metus at pulvinar.
-    //-   .col-lg-6(data-aos="fade-left")
-    //-     //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
-    //-     //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-     LineaTiempoD.color-primario
-    //-       .row.justify-content-center(numero="1" titulo="Praesent luctus")
-    //-         .col-lg-6.order-lg-1.order-2
-    //-           p.text-small.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-           img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-           figcaption Leyenda de la imagen
-    //-       .row.justify-content-center(numero="2" titulo="Praesent luctus")
-    //-         .col-lg-6.col-10.mb-4
-    //-           img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-           figcaption Leyenda de la imagen
-    //-         .col-lg-6
-    //-           p.text-small.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-       .row.justify-content-center(numero="3" titulo="Praesent luctus")
-    //-         .col-lg-6.order-lg-1.order-2
-    //-           p.text-small.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-           img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-           figcaption Leyenda de la imagen
-
-    //- //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
-    //- //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //- LineaTiempoD.color-acento-contenido.mb-5(data-aos="zoom-out")
-    //-   .row.justify-content-center(numero="1" titulo="Praesent luctus")
-    //-     .col-lg-6.order-lg-1.order-2
-    //-       p.text-small.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-     .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-       img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-       figcaption Leyenda de la imagen
-    //-   .row.justify-content-center(numero="2" titulo="Praesent luctus")
-    //-     .col-lg-6.mb-lg-0.mb-4
-    //-       img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-       figcaption Leyenda de la imagen
-    //-     .col-lg-6
-    //-       p.text-small.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-   .row.justify-content-center(numero="3" titulo="Praesent luctus")
-    //-     .col-lg-6.order-lg-1.order-2
-    //-       p.text-small.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-     .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-       img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-       figcaption Leyenda de la imagen
-
-    //- h3 Linea Tiempo E
-
-    //- //- LineaTiempoE debe ir acompañado de una de una de estas clases => 
-    //- //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //- LineaTiempoE.color-acento-contenido(data-aos="zoom-out")
-    //-   .row.justify-content-center(titulo="2014 - Present" subtitulo="Title, Company")
-    //-     .col-lg-6.order-lg-1.order-2
-    //-       p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-     .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-       img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-       figcaption Leyenda de la imagen
-    //-   div(titulo="1014 - Past" subtitulo="Title, Company")
-    //-     figure
-    //-       img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-       figcaption Leyenda de la imagen
-    //-   .row.justify-content-center(titulo="2034 - Future" subtitulo="Title, Company")
-    //-     .col-lg-6.order-lg-1.order-2
-    //-       p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-     .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-       img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-       figcaption Leyenda de la imagen
-    
-    //- Separador
-    //- #pasos.titulo-segundo.color-acento-botones(data-aos="fade-right")
-    //-   h2 Pasos
-
-    //- h3 Pasos A tipo n
-    //- //- PasosA debe ir acompañado de una de una de estas clases => 
-    //- //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //- PasosA.color-primario.mb-5(tipo="n")
-    //-   .row.justify-content-center
-    //-     .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
-    //-       h3 Lorem ipsum dolor sit amet.
-    //-       p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-     .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-    //-       img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-       figcaption Leyenda de la imagen
-    //-   .row.justify-content-center
-    //-     .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
-    //-       img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-       figcaption Leyenda de la Imagen
-    //-     .col-lg-8(data-aos="fade-left")
-    //-       h3 Nullam vulputate mauris eros, ut.
-    //-       p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-   .row.justify-content-center
-    //-     .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
-    //-       h3 Lorem ipsum dolor sit amet.
-    //-       p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-     .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-    //-       img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-       figcaption Leyenda de la imagen
-    //-   .row.justify-content-center
-    //-     .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
-    //-       img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-       figcaption Leyenda de la Imagen
-    //-     .col-lg-8(data-aos="fade-left")
-    //-       h3 Nullam vulputate mauris eros, ut.
-    //-       p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-    //- h3 Pasos A tipo l
-    //- //- PasosA debe ir acompañado de una de una de estas clases => 
-    //- //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //- PasosA.color-acento-botones.mb-5(tipo="l")
-    //-   div(data-aos="fade-left")
-    //-     h3 Lorem ipsum dolor sit amet.
-    //-     p.mb-0 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id risus eu tortor vulputate luctus. Fusce ligula tortor, euismod vel scelerisque nec, dapibus sit amet enim. Mauris aliquet tempor neque non faucibus. Etiam ex urna, viverra ut velit maximus, malesuada tincidunt lectus. Aliquam tincidunt ipsum turpis, at lacinia purus ultricies eget. Curabitur at fringilla elit. Mauris id rhoncus sapien. Integer mollis ante enim, at congue enim suscipit et. Aliquam erat volutpat. Maecenas dolor ex, laoreet sed egestas pellentesque, molestie vitae mauris. Quisque cursus eros eget odio consequat egestas.
-    //-   div(data-aos="fade-right")
-    //-     h3 Nullam vulputate mauris eros, ut.
-    //-     p.mb-0 Duis non elit arcu. In luctus placerat dapibus. Praesent auctor nunc vitae iaculis iaculis. Aenean efficitur lectus in elit ullamcorper porttitor. Phasellus sit amet scelerisque magna, eget rhoncus urna. Integer mollis faucibus hendrerit. Nullam blandit vel tortor vel elementum.
-    //-   div(data-aos="fade-left")
-    //-     h3 Duis laoreet est non ligula.
-    //-     p.mb-0 Nulla lobortis orci quis posuere fringilla. Mauris sit amet ligula et tortor euismod mollis laoreet sit amet nisl. Sed ac suscipit sapien. Aliquam commodo magna quis nisl porttitor pulvinar. Donec efficitur sapien pulvinar, dictum tortor ac, pellentesque felis. Sed in nunc quis enim mattis sodales. Suspendisse sodales sem mauris, nec vehicula felis rhoncus in.
-    //-   div(data-aos="fade-right")
-    //-     h3 Lorem ipsum dolor sit amet.
-    //-     p.mb-0 Aliquam ornare sem in mauris lobortis accumsan. Suspendisse sollicitudin tellus eget bibendum cursus. Praesent tincidunt cursus mattis. Fusce nec convallis mauris, eu tincidunt neque. Proin justo orci, fermentum vel est vel, ornare sodales dui. Etiam consequat commodo tincidunt. Maecenas imperdiet ante eu mauris imperdiet, Phasellus pretium tortor quis varius sagittis. Suspendisse eu posuere enim, sed lacinia justo. Praesent eget tempor erat, a pretium ante. Nulla facilisi.
-
-    //- h3 Pasos B
-    //- .tarjeta.tarjeta--gris.p-4
-    //-   //- PasosB debe ir acompañado de una de una de estas clases => 
-    //-   //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-   PasosB.color-acento-contenido(data-aos="zoom-in")
-    //-     .row.justify-content-center(titulo="Palabra")
-    //-       .col-lg-6.order-lg-1.order-2
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-       .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-     .row.justify-content-center(titulo="I think it needs to be")
-    //-       .col-lg-6.order-lg-1.order-2
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-       .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-     .row.justify-content-center(titulo="I have selected those elements")
-    //-       .col-lg-6.order-lg-1.order-2
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    //-       .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-     div(titulo="Etiam eu mauris sit amet")
-    //-       img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-       figcaption Leyenda de la imagen
-    //-     .row.justify-content-center(titulo="Praesent luctus")
-    //-       .col-lg-6.order-lg-1.order-2
-    //-         p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.      
-    //-       .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-    //-         img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-         figcaption Leyenda de la imagen
-    //-     div(titulo="arcu porta, vel finibus eros posuere")
-    //-       img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-       figcaption Leyenda de la imagen
-    //-     div(titulo="Praesent")
-    //-       img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-       figcaption Leyenda de la imagen
-    //-     div(titulo="Sed vehicula velit vel arcu porta,")
-    //-       img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-       figcaption Leyenda de la imagen
-
-    //- Separador
-    //- #llamados_accion.titulo-segundo.color-acento-botones(data-aos="fade-right")
-    //-   h2 Llamados a la acción
-
-    //- p.mb-2 Es un bloque de texto que destaca por su composición y diseño. Su principal función es incentivar al usuario a realizar una acción a través de un botón o hipervínculo, en este caso, con el fin de poder acceder a recursos como infografías, videos, documentos y sitios web externos e independientes del componente formativo.
-
-    //- ul.lista-ul.mb-3
-    //-   li(data-aos="fade-right") 
-    //-     i.lista-ul__vineta
-    //-     | Abrir PDF
-    //-   li(data-aos="fade-right") 
-    //-     i.lista-ul__vineta
-    //-     | Infografías
-    //-   li(data-aos="fade-right") 
-    //-     i.lista-ul__vineta
-    //-     | Documentos
-    //-   li(data-aos="fade-right") 
-    //-     i.lista-ul__vineta
-    //-     | Videos externos 
-    //-   li(data-aos="fade-right") 
-    //-     i.lista-ul__vineta
-    //-     | Enlaces
-
-    //- .h5 Requerimientos de información:
-
-    //- ul.lista-ul.mb-5
-    //-   li(data-aos="fade-right") 
-    //-     i.lista-ul__vineta
-    //-     | Título llamativo, claro y conciso. 
-    //-   li(data-aos="fade-right") 
-    //-     i.lista-ul__vineta
-    //-     | La redacción de los textos deben crear la necesidad de consultar el contenido sugerido (anexos).
-    //-   li(data-aos="fade-right") 
-    //-     i.lista-ul__vineta
-    //-     | Se sugiere un párrafo de acompañamiento que no sobrepase las 3 líneas de texto en su extensión, cuya característica principal sea incentivar al aprendiz a consultar el recurso propuesto.
-
-    //- .h5 Ejemplo: Llamado a la acción 1 Acción de infografías
-
-    //- //- .tarjeta debe ir acompañado de una de una de estas clases => 
-    //- //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //- //- estas clases tambien tienen un modificador --borde
-    //- .tarjeta.color-acento-botones.p-4.p-md-5.mb-5(data-aos="fade-right")
-    //-   .row.justify-content-around.align-items-center
-    //-     .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
-    //-       img(src="@/assets/componentes/ej-01.png")
-    //-     .col-md.col-lg-6
-    //-       h3 Título del recurso
-    //-       p.mb-4 There is no right answer. The splendor of the mystery is that you don’t understand. Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original. Why are you reading all of this?  
-    //-       a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
-    //-         span Descargar
-    //-         i.fas.fa-file-download
-
-    //- .h5 Ejemplo: Llamado a la acción 2 Recursos externos
-    //- //- .tarjeta debe ir acompañado de una de una de estas clases => 
-    //- //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //- //- estas clases tambien tienen un modificador --borde
-    //- .tarjeta.color-primario.p-3.mb-5(data-aos="fade-right")
-    //-   .row.justify-content-around.align-items-center
-    //-     .col-3.col-sm-2.col-lg-1
-    //-       img(src="@/assets/componentes/ej-02.svg")
-    //-     .col
-    //-       .row.justify-content-between.align-items-center
-    //-         .col.mb-sm-0.mb-4
-    //-           h3.mb-1 Título del recurso
-    //-           p.text-small Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias  
-    //-         .col-sm-auto
-    //-           a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-    //-             span Descargar
-    //-             i.fas.fa-file-download
-
-    //- //- .tarjeta debe ir acompañado de una de una de estas clases => 
-    //- //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //- //- estas clases tambien tienen un modificador --borde
-    //- .tarjeta.color-acento-botones.p-3.mb-5(data-aos="fade-right")
-    //-   .row.justify-content-around.align-items-center
-    //-     .col-3.col-sm-2.col-lg-1
-    //-       img(src="@/assets/componentes/ej-02.svg")
-    //-     .col
-    //-       .row.justify-content-between.align-items-center
-    //-         .col-mb-sm-0.mb-4
-    //-           h3.mb-1 Título del recurso
-    //-           p.text-small Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias 
-    //-         .col-sm-auto
-    //-           a.boton.color-acento-contenido(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-    //-             span Descargar
-    //-             i.fas.fa-file-download
-
-    //- .h5 Ejemplo: Llamado a la acción 3 Recursos externos versión simplificada
-    //- .row.justify-content-center.mb-5
-    //-   .col-lg-6
-    //-     a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" data-aos="fade-right")
-    //-       .anexo__icono
-    //-         img(src="@/assets/template/icono-pdf.svg")
-    //-       .anexo__texto
-    //-         p.mb-0 Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias   
-    //-     a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" data-aos="fade-right")
-    //-       .anexo__icono
-    //-         img(src="@/assets/template/icono-doc.svg")
-    //-       .anexo__texto
-    //-         p.mb-0 Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
-    //-     a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" data-aos="fade-right")
-    //-       .anexo__icono
-    //-         img(src="@/assets/template/icono-xls.svg")
-    //-       .anexo__texto
-    //-         p.mb-0 Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
-    //-     a.anexo.mb-4(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank" data-aos="fade-right")
-    //-       .anexo__icono
-    //-         img(src="@/assets/template/icono-link.svg")
-    //-       .anexo__texto
-    //-         p.mb-0 Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
-    //-   .col-lg-6
-    //-     a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" data-aos="fade-right")
-    //-       .anexo__icono
-    //-         img(src="@/assets/template/icono-zip.svg")
-    //-       .anexo__texto
-    //-         p.mb-0 Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
-    //-     a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" data-aos="fade-right")
-    //-       .anexo__icono
-    //-         img(src="@/assets/template/icono-ppt.svg")
-    //-       .anexo__texto
-    //-         p.mb-0 Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
-    //-     a.anexo(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" data-aos="fade-right")
-    //-       .anexo__icono
-    //-         img(src="@/assets/template/icono-xml.svg")
-    //-       .anexo__texto
-    //-         p.mb-0 Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
-
-    //-   Separador
-    //-   #tarjetas.titulo-segundo.color-acento-botones(data-aos="fade-right")
-    //-     h2 Tarjetas
-
-    //-   p.mb-3 Es la agrupación de contenidos (texto e imágenes) en forma de tarjeta, que tiene como propósito, uno, ser más amigable el consumo de la información y dos, destacar información o conceptos relevantes.
-
-    //-   .h5 Requerimientos de información:
-
-    //-   ul.lista-ul.mb-5
-    //-     li(data-aos="fade-right") 
-    //-       i.lista-ul__vineta
-    //-       | Título corto y claro.
-    //-     li(data-aos="fade-right") 
-    //-       i.lista-ul__vineta
-    //-       | Información precisa, que reporten conceptos o definiciones.
-    //-     li(data-aos="fade-right") 
-    //-       i.lista-ul__vineta
-    //-       | Se sugiere una cantidad de texto igual o menor a 4 líneas de word tamaño carta.
-    
-    //- h3 tarjeta de deslizamiento arriba abajo
-    //- .row.justify-content-center.mb-5
-    //-   .col-xl-5.col-lg-6.col-sm-8.col-10.mb-4(data-aos="fade-right")
-    //-     .tarjetas-up(@mouseover="mostrarIndicador = false")
-    //-       .indicador--hover(v-if="mostrarIndicador")
-    //-       img(src='@/assets/template/img-placeholder.svg' alt="Imagen decorativa")
-    //-       .tarjetas-up_card.BG03.p-xl-4.p-lg-3.p-4
-    //-         .title.d-flex.align-items-center.justify-content-center.mb-4
-    //-           span
-    //-             i.fas.fa-caret-up.fa-2x.me-3
-    //-             i.fas.fa-caret-down.fa-2x.me-3
-    //-           h4.mb-0 Desempeño financiero
-    //-         p.text-center.mb-0 Analiza la rentabilidad del proyecto mediante indicadores como ingresos totales, costos operativos, margen de ganancia y retorno sobre la inversión (ROI).
-    //-   .col-xl-5.col-lg-6.col-sm-8.col-10.mb-4(data-aos="flip-up")
-    //-     .tarjetas-up(@mouseover="mostrarIndicador = false")
-    //-       .indicador--hover(v-if="mostrarIndicador")
-    //-       img(src='@/assets/template/img-placeholder.svg' alt="Imagen decorativa")
-    //-       .tarjetas-up_card.BG03.p-xl-4.p-lg-3.p-4
-    //-         .title.d-flex.align-items-center.justify-content-center.mb-4
-    //-           span
-    //-             i.fas.fa-caret-up.fa-2x.me-3
-    //-             i.fas.fa-caret-down.fa-2x.me-3
-    //-           h4.mb-0 Experiencia del cliente
-    //-         p.text-center.mb-0 Mide la satisfacción del visitante a través de encuestas, opiniones en redes sociales, tasa de retención y el Net Promoter Score (NPS), que indica la probabilidad de recomendación.
-
-    //-   h3 Tarjetas botones
-    //-   .row.mb-5
-    //-     .col-sm-6.col-lg-3.mb-4.mb-lg-0
-    //-       //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
-    //-       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-       //- estas clases tambien tienen un modificador --borde
-    //-       .tarjeta--boton.color-primario.p-4
-    //-         .row.justify-content-center.mb-3
-    //-           .col-7
-    //-             figure
-    //-               img(src='@/assets/componentes/ej-03.svg', alt="Imagen decorativa")
-    //-         h3.text-center Intuition important
-    //-         p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-
-    //-     .col-sm-6.col-lg-3.mb-4.mb-lg-0
-    //-       //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
-    //-       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-       //- estas clases tambien tienen un modificador --borde
-    //-       .tarjeta--boton.color-secundario.p-4
-    //-         .row.justify-content-center.mb-3
-    //-           .col-7
-    //-             figure
-    //-               img(src='@/assets/componentes/ej-03.svg', alt="Imagen decorativa")
-
-    //-         h3.text-center Intuition important
-    //-         p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-
-    //-     .col-sm-6.col-lg-3.mb-4.mb-sm-0
-    //-       //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
-    //-       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-       //- estas clases tambien tienen un modificador --borde
-    //-       .tarjeta--boton.color-acento-contenido.text-white--hover.p-4
-    //-         .row.justify-content-center.mb-3
-    //-           .col-7
-    //-             figure
-    //-               img(src='@/assets/componentes/ej-03.svg', alt="Imagen decorativa")
-
-    //-         h3.text-center Intuition important
-    //-         p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-
-    //-     .col-sm-6.col-lg-3
-    //-       //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
-    //-       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-       //- estas clases tambien tienen un modificador --borde
-    //-       .tarjeta--boton.color-acento-botones.p-4
-    //-         .row.justify-content-center.mb-3
-    //-           .col-7
-    //-             figure
-    //-               img(src='@/assets/componentes/ej-03.svg', alt="Imagen decorativa")
-
-    //-         h3.text-center Intuition important
-    //-         p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-
-
-    //-   h3 Tarjetas conectadas
-    //-   .tarjeta--container.row.mb-5
-    //-     //- .tarjeta debe ir acompañado de una de una de estas clases => 
-    //-     //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-     //- estas clases tambien tienen un modificador --borde
-    //-     .col-md.tarjeta.color-primario.p-5
-    //-       .row.justify-content-center.mb-4
-    //-         .col-6
-    //-           figure
-    //-             img(src='@/assets/componentes/ej-05.svg', alt="Imagen decorativa")
-            
-    //-       h2.text-center Celebrate your<br>failures
-    //-       p To surpass others is fucking tough, if you only do as you are told you don’t have it in you to succeed. Think about all the possibilities. You’ve been placed in the crucial moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-    //-     //- .tarjeta debe ir acompañado de una de una de estas clases => 
-    //-     //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-     //- estas clases tambien tienen un modificador --borde
-    //-     .col-md.tarjeta.color-acento-botones.p-5
-    //-       .row.justify-content-center.mb-4
-    //-         .col-6
-    //-           figure
-    //-             img(src='@/assets/componentes/ej-05.svg', alt="Imagen decorativa")
-            
-    //-       h2.text-center Sterility leads to<br>susceptibility
-    //-       p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
-
-    //-     //- .tarjeta debe ir acompañado de una de una de estas clases => 
-    //-     //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-     //- estas clases tambien tienen un modificador --borde
-    //-     .col-md.tarjeta.color-acento-contenido.text-white.p-5
-    //-       .row.justify-content-center.mb-4
-    //-         .col-6
-    //-           figure
-    //-             img(src='@/assets/componentes/ej-05.svg', alt="Imagen decorativa")
-            
-    //-       h2.text-center Sterility leads to<br>susceptibility
-    //-       p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
-
-    //-   h3 Tarjetas avatar A
-    //-   .row
-    //-     .col-lg-6
-    //-       .tarjeta-avatar-b.mb-5
-    //-         .tarjeta-avatar-b__img
-    //-           img(src='@/assets/componentes/ej-05.svg' alt="Imagen decorativa")
-    //-         .tarjeta.tarjeta--azul
-    //-           .p-4
-    //-             h2 John Doe
-    //-             p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-    //-     .col-lg-6
-    //-       .tarjeta-avatar-b.mb-5
-    //-         .tarjeta-avatar-b__img
-    //-           img(src='@/assets/componentes/ej-05.svg' alt="Imagen decorativa")
-    //-         //- .tarjeta debe ir acompañado de una de una de estas clases => 
-    //-         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-         //- estas clases tambien tienen un modificador --borde
-    //-         .tarjeta.color-acento-botones
-    //-           .p-4
-    //-             h2 John Doe
-    //-             p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-    //-     .col-lg-6
-    //-       .tarjeta-avatar-b.mb-5
-    //-         .tarjeta-avatar-b__img
-    //-           img(src='@/assets/componentes/ej-05.svg' alt="Imagen decorativa")
-    //-         //- .tarjeta debe ir acompañado de una de una de estas clases => 
-    //-         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-         //- estas clases tambien tienen un modificador --borde
-    //-         .tarjeta.color-acento-contenido
-    //-           .p-4
-    //-             h2 Greatness isn’t the height
-    //-             p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-    //-     .col-lg-6
-    //-       .tarjeta-avatar-b.mb-5
-    //-         .tarjeta-avatar-b__img
-    //-           img(src='@/assets/componentes/ej-05.svg' alt="Imagen decorativa")
-    //-         //- .tarjeta debe ir acompañado de una de una de estas clases => 
-    //-         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-         //- estas clases tambien tienen un modificador --borde
-    //-         .tarjeta.color-primario.text-white
-    //-           .p-4
-    //-             h2 Greatness isn’t the height
-    //-             p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-    //-   h3 Tarjetas avatar B
-    //-   .row.mb-5
-    //-     .col-md-6.col-lg.mb-5.mb-lg-0
-    //-       .tarjeta-avatar
-    //-         img(src='@/assets/componentes/ej-05.svg' alt="Imagen decorativa")
-    //-         //- .tarjeta debe ir acompañado de una de una de estas clases => 
-    //-         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-         //- estas clases tambien tienen un modificador --borde
-    //-         .tarjeta.color-primario
-    //-           .text-white.p-4
-    //-             h2.text-center John Doe
-    //-             p moment. K askdnaskjda sjkdn akjsndasd ajshd akjshd kajshd ask djhak sjdha ksjdha kjsdha kjsdha kjsdh akjshda kjshd aksjdh kajsd djkhakjshdka jsak Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-    //-     .col-md-6.col-lg.mb-5.mb-lg-0
-    //-       .tarjeta-avatar
-    //-         img(src='@/assets/componentes/ej-05.svg' alt="Imagen decorativa")
-    //-         //- .tarjeta debe ir acompañado de una de una de estas clases => 
-    //-         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-         //- estas clases tambien tienen un modificador --borde
-    //-         .tarjeta.color-acento-botones
-    //-           .p-4
-    //-             h2.text-center John Doe
-    //-             p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-    //-     .col-md-6.col-lg.mb-5.mb-lg-0
-    //-       .tarjeta-avatar
-    //-         img(src='@/assets/componentes/ej-05.svg' alt="Imagen decorativa")
-    //-         //- .tarjeta debe ir acompañado de una de una de estas clases => 
-    //-         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-         //- estas clases tambien tienen un modificador --borde
-    //-         .tarjeta.color-acento-contenido
-    //-           .p-4
-    //-             h2.text-center Greatness isn’t the height
-    //-             p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-    //-   h3 Tarjetas flip
-
-    //-   .row.mb-5
-    //-     .col-sm-6.col-xl-3.mb-4.mb-xl-0
-    //-       .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-    //-         .indicador--hover(v-if="indicadorTarjetaFlip")
-    //-         .tarjeta-flip__contenedor
-    //-           .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
-    //-           .tarjeta-flip__contenido.p-4.p-xl-5
-    //-             h1 John Doe
-    //-             p Lorem ipsum dolor sit amet, 
-
-    //-     .col-sm-6.col-xl-3.mb-4.mb-xl-0
-    //-       .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
-    //-         .tarjeta-flip__contenedor
-    //-           .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
-    //-           .tarjeta-flip__contenido.p-4.p-xl-5
-    //-             h1 John Doe
-    //-             p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-    //-     .col-sm-6.col-xl-3.mb-4.mb-sm-0
-    //-       .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
-    //-         .tarjeta-flip__contenedor
-    //-           .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
-    //-           .tarjeta-flip__contenido.p-4.p-xl-5
-    //-             h1 John Doe
-    //-             p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-    //-     .col-sm-6.col-xl-3
-    //-       .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
-    //-         .tarjeta-flip__contenedor
-    //-           .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
-    //-           .tarjeta-flip__contenido.p-4.p-xl-5
-    //-             h1 John Doe
-    //-             p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-    //-   h3 Tarjetas slide
-
-    //-   //- .tarjeta-slide debe ir acompañado de una de una de estas clases => 
-    //-   //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-   //- .arriba, .abajo, .derecha, .izquierda para controlar la animacion
-    //-   .row.mb-5
-    //-     .col-sm-6.col-xl-3.mb-4.mb-xl-0
-    //-       .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-    //-         .indicador--hover(v-if="indicadorTarjetaSlide")
-    //-         .tarjeta-slide__contenedor
-    //-           .tarjeta-slide__contenido.p-4.p-xl-5
-    //-             h1 John Doe
-    //-             p Lorem ipsum dolor sit amet, 
-    //-           .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
-
-    //-     .col-sm-6.col-xl-3.mb-4.mb-xl-0
-    //-       .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-    //-         .tarjeta-slide__contenedor
-    //-           .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
-    //-           .tarjeta-slide__contenido.p-4.p-xl-5
-    //-             h1 John Doe
-    //-             p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-    //-     .col-sm-6.col-xl-3.mb-4.mb-sm-0
-    //-       .tarjeta.tarjeta-slide.derecha.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-    //-         .tarjeta-slide__contenedor
-    //-           .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
-    //-           .tarjeta-slide__contenido.p-4.p-xl-5
-    //-             h1 John Doe
-    //-             p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-    //-     .col-sm-6.col-xl-3
-    //-       .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-    //-         .tarjeta-slide__contenedor
-    //-           .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
-    //-           .tarjeta-slide__contenido.p-4.p-xl-5
-    //-             h1 John Doe
-    //-             p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-    //-   h3 Tarjetas Tabla
-    //-   .row.mb-5
-    //-     .col-md-6.col-lg.tarjeta--tabla.p-4
-    //-       .row.justify-content-center.mb-3
-    //-         .col-4
-    //-           img(src='@/assets/componentes/ej-05.svg' alt="Imagen decorativa")
-    //-       h2.text-center John Doe
-    //-       p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-    //-     .col-md-6.col-lg.tarjeta--tabla.p-4
-    //-       .row.justify-content-center.mb-3
-    //-         .col-4
-    //-           img(src='@/assets/componentes/ej-05.svg' alt="Imagen decorativa")
-    //-       h2.text-center John Doe
-    //-       p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-    //-     .col-md-6.col-lg.tarjeta--tabla.p-4
-    //-       .row.justify-content-center.mb-3
-    //-         .col-4
-    //-           img(src='@/assets/componentes/ej-05.svg' alt="Imagen decorativa")
-    //-       h2.text-center John Doe
-    //-       p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-    //-     .col-md-6.col-lg.tarjeta--tabla.p-4
-    //-       .row.justify-content-center.mb-3
-    //-         .col-4
-    //-           img(src='@/assets/componentes/ej-05.svg' alt="Imagen decorativa")
-    //-       h2.text-center John Doe
-    //-       p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-    //-   h3 Tarjetas con número
-
-    //-   .row.mb-5
-    //-     .col-md-6.col-xl.mb-4.mb-xl-0
-    //-       //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
-    //-       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-       //- estas clases tambien tienen un modificador --borde
-    //-       .tarjeta-numerada.color-primario.p-5
-    //-         .tarjeta-numerada__numero
-    //-           .h2 1
-    //-         p.text-center 
-    //-           b Ruta integral de atención en salud para la promoción y mantenimiento de la salud 
-    //-         p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-
-    //-     .col-md-6.col-xl.mb-4.mb-xl-0
-    //-       //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
-    //-       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-       //- estas clases tambien tienen un modificador --borde
-    //-       .tarjeta-numerada.color-secundario.p-5
-    //-         .tarjeta-numerada__numero
-    //-           .h2 2
-    //-         p.text-center 
-    //-           b Ruta integral de atención en salud para la promoción y mantenimiento de la salud 
-    //-         p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-
-    //-     .col-md-6.col-xl.mb-4.mb-xl-0
-    //-       //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
-    //-       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-       //- estas clases tambien tienen un modificador --borde
-    //-       .tarjeta-numerada.color-acento-contenido.p-5
-    //-         .tarjeta-numerada__numero
-    //-           .h2 3
-    //-         p.text-center 
-    //-           b Ruta integral de atención en salud para la promoción y mantenimiento de la salud 
-    //-         p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-
-    //-     .col-md-6.col-xl.mb-4.mb-xl-0
-    //-       //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
-    //-       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //-       //- estas clases tambien tienen un modificador --borde
-    //-       .tarjeta-numerada.color-acento-botones.p-5
-    //-         .tarjeta-numerada__numero
-    //-           .h2 4
-    //-         p.text-center 
-    //-           b Ruta integral de atención en salud para la promoción y mantenimiento de la salud 
-    //-         p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-
-    //-   Separador
-    //-   #modal.titulo-segundo.color-acento-botones
-    //-     h2 Modal
-
-    //-   .row
-    //-     .col-auto
-    //-       a.boton.color-acento-contenido.indicador__container(@click="modal1 = true")
-    //-         span Abrir modal
-    //-         .indicador--click(v-if="mostrarIndicador")
-    //-     .col
-    //-       p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t 
-    //-         a.lnk(@click="modal1 = true") Abrir modal 
-    //-         |the height of your stature, it’s the heft of your spirit.
-      
-    //-   ModalA(:abrir-modal.sync="modal1")
-    //-     .row.align-items-center
-    //-       .col-md-6.mb-4.mb-md-0
-    //-         h4 Modal 1
-    //-         p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-    //-       .col-md-6
-    //-         figure
-    //-           img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
-    //-           figcaption Leyenda de la imagen
-      
-    //-   Separador
-    //-   #modal.titulo-segundo.color-acento-botones
-    //-     h2 Animaciones
-
-    //-   h3.titulo-tercero Fade
-    //-   .row.mb-5
-    //-     .col-sm-6.col-md-4.col-lg-3.col-xxl-2.mb-3
-    //-       .tarjeta.color-acento-botones.text-center.p-3(data-aos="fade-left")
-    //-         h3.mb-0 fade-left
-    //-     .col-sm-6.col-md-4.col-lg-3.col-xxl-2.mb-3
-    //-       .tarjeta.color-primario.text-center.p-3(data-aos="fade-right")
-    //-         h3.mb-0 fade-right
-
-    //-   h3.titulo-tercero Flip
-    //-   .row.mb-5
-    //-     .col-sm-6.col-md-4.col-lg-3.col-xxl-2.mb-3
-    //-       .tarjeta.color-primario.text-center.p-3(data-aos="flip-up")
-    //-         h3.mb-0 flip-up
-    //-     .col-sm-6.col-md-4.col-lg-3.col-xxl-2.mb-3
-    //-       .tarjeta.color-secundario.text-center.p-3(data-aos="flip-down")
-    //-         h3.mb-0 flip-down
-    //-     .col-sm-6.col-md-4.col-lg-3.col-xxl-2.mb-3
-    //-       .tarjeta.color-acento-contenido.text-center.p-3(data-aos="flip-left")
-    //-         h3.mb-0 flip-left
-    //-     .col-sm-6.col-md-4.col-lg-3.col-xxl-2.mb-3
-    //-       .tarjeta.color-acento-botones.text-center.p-3(data-aos="flip-right")
-    //-         h3.mb-0 flip-right
-
-    //-   h3.titulo-tercero Zoom
-    //-   .row
-    //-     .col-sm-6.col-md-4.col-lg-3.col-xxl-2.mb-3
-    //-       .tarjeta.color-primario.text-center.p-3(data-aos="zoom-in")
-    //-         h3.mb-0 zoom-in
-    //-     .col-sm-6.col-md-4.col-lg-3.col-xxl-2.mb-3
-    //-       .tarjeta.color-secundario.text-center.p-3(data-aos="zoom-in-up")
-    //-         h3.mb-0 zoom-out
-
+        .cajon.color-secundario.p-4.mb-4
+          p En síntesis, la calidad de los datos es un concepto multidimensional que garantiza que la información sea precisa, válida, completa, coherente y adecuada para el propósito al que está destinada. Evaluar la calidad de los datos es un paso esencial en la preparación de datos para cualquier análisis estadístico o aplicación de inteligencia artificial (Pyle, 1999).
   </template>
 
 <script>

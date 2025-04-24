@@ -1,2 +1,2 @@
 module.exports =
-  'Fundamentos del ciberespacio, la ciberseguridad y los delitos informáticos'
+  'Fundamentos de datos, estadística descriptiva y seguridad de la información'
